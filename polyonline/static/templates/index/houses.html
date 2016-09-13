@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+{% block title %}项目巡览 - 保利地产{% endblock %}}
+{% if isMobile %}
+{% block style_mobile %}
+    {= super() =}
+    <link rel='stylesheet' href='css/index_mobile/subnav.css'>
+    <link rel='stylesheet' href='css/index_mobile/project_list.css'>
+    <link rel='stylesheet' href='css/index_mobile/project.css'>
+    <link rel='stylesheet' href='css/index_mobile/house.css'>
+    <link rel='stylesheet' href='css/index_mobile/select.css'>
+{% endblock %}
+{% else %}
+{% block style %}
+    {= super() =}
+    <link rel='stylesheet' href='css/index/subnav.css'>
+    <link rel='stylesheet' href='css/index/project_list.css'>
+    <link rel='stylesheet' href='css/index/project.css'>
+    <link rel='stylesheet' href='css/index/house.css'>
+    <link rel='stylesheet' href='css/index/select.css'>
+{% endblock %}
+{% endif %}
+{% block content %}
+<div class="content">
+    {% include "widgets/subnav.html" %}
+    {% include "widgets/house.html" %}
+</div>
+{% endblock %}
+{% block script %}
+<script src='js/lib/ajax.js'></script>
+<script src='js/lib/utils.js'></script>
+<script src='js/index/subnav.js'></script>
+<script src='js/index/house.js'></script>
+{% endblock script %}

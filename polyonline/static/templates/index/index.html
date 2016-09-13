@@ -1,0 +1,46 @@
+{% extends 'layout.html' %}
+{% block title %}首页 - 保利地产{% endblock %}}
+{% if isMobile %}
+{% block style_mobile %}
+    {= super() =}
+    <link rel='stylesheet' href='css/index_mobile/index.css'>
+{% endblock %}
+{% else %}
+{% block style %}
+    {= super() =}
+    <link rel='stylesheet' href='css/index/index.css'>
+{% endblock %}
+{% endif %}
+{% block content %}
+<div class="content">
+    <div class="banner-container">
+        <div class="banner" id='banner-slides'>
+            {% for item in data.top %}
+            {% if item.type == 'ad' %}
+            <a href="{= item.link =}"><img class="banner-img" src="{= item.image =}" data-link="{= item.link =}"></a>
+            {% elif item.type == 'structure' %}
+            <a href="/comment.html?structure_id={= item.structure_id =}"><img class="banner-img" src="{= item.image =}" structure-id="{= item.structure_id =}"></a>
+            {% else %}
+            <a href="{= item.link =}"><img class="banner-img" src="{= item.image =}"></a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="layout-container">
+        <div class="layout" id='layout-slides'>
+            {% for item in data.bottom %}
+            {% if item.type == 'ad' %}
+            <a href="{= item.link =}"><img class="banner-img" src="{= item.image =}" data-link="{= item.link =}"></a>
+            {% elif item.type == 'structure' %}
+            <a href="/comment.html?structure_id={= item.structure_id =}"><img class="banner-img" src="{= item.image =}" structure-id="{= item.structure_id =}"></a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block script %}
+<script src='js/lib/jquery.min.js'></script>
+<script src='js/lib/jquery.slides.min.js'></script>
+<script src='js/index/index.js'></script>
+{% endblock script %}

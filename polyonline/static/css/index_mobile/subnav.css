@@ -1,0 +1,80 @@
+.subnav-container {
+    background-color: #eee;
+    width: 100%;
+    font-size: 16px;
+}
+.subnav {
+    width: 100%;
+    padding: auto 10px;
+}
+
+.search-container {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    line-height: 50px;
+}
+
+.search-text {
+    width: 150px;
+    margin: 0 10px;
+}
+
+.search-options {
+    margin-top: 27px;
+    width: 150px;
+    height: 24px;
+    font-size: 16px;
+}
+
+.login-container {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.login-left {
+    margin: 17.5px 10px 0 17.5px;
+    line-height: 20px;
+}
+
+.login-top > p > span:nth-of-type(1) {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.login-top > p > span> a:hover,
+.login-top > span:hover {
+    color: #1e46a1;
+    cursor: pointer;
+}
+
+.login-top a,
+.login-top a:visited {
+    color: #666;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.login-right {
+    height: 75px;
+    width: 70px;
+    background-image: url(../../img/index/icons.png);
+    background-size: 986.5px 304px;
+    background-repeat: no-repeat;
+    background-position: -702px -194px;
+}
+
+.login-right img {
+    width: 70px;
+    height: 75px;
+}
+
+.login-bottom {
+    text-align: right;
+}

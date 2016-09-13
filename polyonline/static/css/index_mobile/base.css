@@ -1,0 +1,171 @@
+/* 导航栏样式 */
+.header-container {
+    width: 100%;
+    background-image: -webkit-linear-gradient(left, #1e46a1, #334195);
+    background-image: -moz-linear-gradient(left, #1e46a1, #334195);
+    background-image: -ms-linear-gradient(left, #1e46a1, #334195);
+    background-image: linear-gradient(left, #1e46a1, #334195);
+}
+
+.header {
+    height: 75px;
+    width: 100%;
+    margin: 0 auto;
+    color: #eee;
+    font-size: 15px;
+}
+
+.header-logo {
+    height: 50px;
+    width: 232px;
+    margin-top: 9.5px;
+    background-image: url(../../img/index/icons.png);
+    background-size: 789.2px 243.2px;
+    background-repeat: no-repeat;
+    background-position: -19px -5px;
+    float: left;
+}
+
+.header-title {
+    display: block;
+    line-height: 75px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.header-nav-container {
+    text-align: center;
+    width: calc(100% - 232px);
+    height: 75px;
+    float: right;
+}
+
+.header-nav {
+    text-align: center;
+    display: none;
+}
+
+.header-navlist {
+    line-height: 50px;
+    height: 50px;
+    padding: 0 20px;
+    border-top: 1px solid #eee;
+    background-color: #334195;
+    z-index: 12;
+    position: relative;
+}
+
+.header-navlist > a,
+.header-navlist > a:visited {
+    color: #eee;
+    border-bottom-style: none;
+    text-decoration: none;
+}
+
+.header-loginlist {
+    width: 20px;
+    height: 23px;
+    margin: 13.5px auto;
+    background-image: url(../../img/index/icons.png);
+    background-repeat: no-repeat;
+    background-size: 986.5px 304px;
+    padding: 0 4px;
+}
+
+.header-loginlist[alt="微信"] {
+    background-position: -21px -77px;
+}
+
+/*
+.header-loginlist[alt="QQ"] {
+    background-position: -49px -77px;
+}
+
+.header-loginlist[alt="微博"] {
+    background-position: -77px -77px;
+}
+
+.header-loginlist[alt="朋友圈"] {
+    background-position: -105px -77px;
+}
+*/
+
+/* 底部信息栏样式 */
+.footer-container {
+    width: 100%;
+    background-color: #1e46a1;
+    color: #eee;
+    margin-top: 60px;
+}
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+ }
+
+.footer-info-container {
+    margin: 0 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.footer-info-container:last-child {
+    border-bottom-style: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.footer-info-logo {
+    width: 43px;
+    height: 43px;
+    background-image: url(../../img/index/icons.png);
+    background-size: 986.5px 304px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 20px;
+}
+
+.footer-info-logo[alt='常见问题'] {
+    background-position: -14px -208px;
+}
+
+.footer-info-logo[alt='关于我们'] {
+    background-position: -104px -208px;
+}
+
+.footer-info-logo[alt='联系方式'] {
+    background-position: -178px -209px;
+}
+
+.footer-title {
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.footer-text {
+    clear: left;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.footer-text,
+.footer-text > a:visited,
+.footer-text > a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-baidu-map {
+    position: relative;
+    float: right;
+    right: -6px;
+    width: 80px;
+    height: 25px;
+    background-image: url(../../img/index/icons.png);
+    background-size: 986.5px 304px;
+    background-repeat: no-repeat;
+    background-position: -160px -75px;
+}
+
+/* 底部信息栏样式 */

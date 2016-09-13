@@ -1,0 +1,52 @@
+            <li class="project-item">
+            <p class="project-item-title">{= property.name =}</p>
+                <div class="project-item-container">
+                    <div class="project-item-left">
+                        <div class="item-left-top"><img src="img/project/{=property.image[0]=}" alt=""></div>
+                        <ul class="item-left-bottom">
+                            <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
+                            <li class="item-img"><img src="img/project/{=property.image[2]=}" alt=""></li>
+                            <li class="item-img"><img src="img/project/{=property.image[3]=}" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="project-item-right">
+                        <div class="item-right-top">
+                            <div class="item-icon" alt="项目概况"></div>
+                            <p class="item-title">项目概况</p>
+                        </div>
+                        <div class="item-subtitle">{= property.description =}</div>
+                        <ul class="item-info-container">
+                            <li class="item-info">
+                                <div class="item-icon" alt="项目区位"></div>
+                                <p class="item-msg">项目区位：{= property.location =}</p>
+                                <span><a href="http://www.baidu.com"></a></span>
+                            </li>
+                            <li class="item-info">
+                                <div class="item-icon" alt="预计开盘"></div>
+                                {% if property.open_time_from  and property.open_time_to %}
+                                <p class="item-msg">预计开盘：{= property.open_time_from =} － {= property.open_time_to =}</p>
+                                {% elif property.open_time_from %}
+                                <p class="item-msg">预计开盘：{= property.open_time_from =}</p>
+                                {% else %}
+                                <p class="item-msg">预计开盘：暂缺</p>
+                                {% endif %}
+                            </li>
+                            <li class="item-info">
+                                <div class="item-icon" alt="产权年限"></div>
+                                <p class="item-msg">产权年限：{= property.property_age =}</p>
+                            </li>
+                            <li class="item-info">
+                                <div class="item-icon" alt="周边配套"></div>
+                                <p class="item-msg">周边配套：</p>
+                                <ul class="surroundings-container">
+                                    {% for surrounding in property.surrounding %}
+                                    <li class="surroundings" alt="{= surrounding =}">{= surrounding =}</li>
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                        </ul>
+                        <a href="project.html?property_id={= property.id =}"><div class="project-button">我要体验产品</div></a>
+                    </div>
+                </div>
+            </li>
+

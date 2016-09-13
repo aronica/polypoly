@@ -1,0 +1,187 @@
+/* 导航栏样式 */
+.header-container {
+    width: 100%;
+    background-image: -webkit-linear-gradient(left, #1e46a1, #334195);
+    background-image: -moz-linear-gradient(left, #1e46a1, #334195);
+    background-image: -ms-linear-gradient(left, #1e46a1, #334195);
+    background-image: linear-gradient(left, #1e46a1, #334195);
+}
+
+.header {
+    height: 75px;
+    width: 1090px;
+    margin: 0 auto;
+    color: #eee;
+    font-size: 15px;
+    overflow: hidden;
+    background-image: -webkit-linear-gradient(left, #1e46a1, #334195);
+    background-image: -moz-linear-gradient(left, #1e46a1, #334195);
+    background-image: -ms-linear-gradient(left, #1e46a1, #334195);
+    background-image: linear-gradient(left, #1e46a1, #334195);
+}
+
+.header-logo {
+    height: 75px;
+    width: 320px;
+    background-image: url(../../img/index/icons.png);
+    background-size: 986.5px 304px;
+    background-repeat: no-repeat;
+    background-position: -23px 0;
+    float: left;
+}
+
+.header-title {
+    display: none;    
+}
+
+.header-nav,
+.header-login,
+.header-nav-container {
+    text-align: center;
+    overflow: hidden;
+    height: 75px;
+    float: right;
+}
+
+.header-navlist {
+    line-height: 25px;
+    height: 25px;
+    margin-top: 25px;
+    border-right: 1px solid  #eee;
+    float: left;
+    padding: 0 20px;
+}
+
+.header-navlist:last-child {
+    border-right-style: none;
+    padding-right: 0;
+}
+
+.header-navlist::after {
+}
+
+.header-navlist > a,
+.header-navlist > a:visited {
+    color: #eee;
+    border-bottom-style: none;
+    text-decoration: none;
+}
+
+.header-loginlist {
+    width: 20px;
+    height: 23px;
+    float: right;
+    background-image: url(../../img/index/icons.png);
+    background-repeat: no-repeat;
+    background-size: 986.5px 304px;
+    padding: 0 4px;
+}
+
+.header-loginlist[alt="微信"] {
+    background-position: -21px -77px;
+}
+
+/*
+.header-loginlist[alt="QQ"] {
+    background-position: -49px -77px;
+}
+
+.header-loginlist[alt="微博"] {
+    background-position: -77px -77px;
+}
+
+.header-loginlist[alt="朋友圈"] {
+    background-position: -105px -77px;
+}
+*/
+
+/* 底部信息栏样式 */
+.footer-container {
+    width: 100%;
+    background-color: #1e46a1;
+    color: #eee;
+    margin-top: 60px;
+}
+
+.footer {
+    width: 1090px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    background-color: #1e46a1;
+}
+
+.footer-info-container {
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-info-container:nth-of-type(2) {
+    -webkit-flex: inherit;
+    -moz-flex: inherit;
+    -ms-flex: inherit;
+    flex: inherit;
+    width: 300px;
+}
+
+.footer-info-container:last-child > .footer-text {
+    border-right-style: none;
+}
+
+.footer-info-logo {
+    width: 43px;
+    height: 43px;
+    background-image: url(../../img/index/icons.png);
+    background-size: 986.5px 304px;
+    background-repeat: no-repeat;
+}
+
+.footer-info-logo[alt='常见问题'] {
+    background-position: -14px -208px;
+}
+
+.footer-info-logo[alt='关于我们'] {
+    background-position: -104px -208px;
+}
+
+.footer-info-logo[alt='联系方式'] {
+    background-position: -178px -209px;
+}
+
+.footer-title {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footer-text {
+    font-size: 14px;
+    line-height: 25px;
+    border-right: 1px solid #bbb;
+}
+
+.footer-text,
+.footer-text > a:visited,
+.footer-text > a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-baidu-map {
+    position: relative;
+    float: right;
+    right: -6px;
+    width: 80px;
+    height: 25px;
+    background-image: url(../../img/index/icons.png);
+    background-size: 986.5px 304px;
+    background-repeat: no-repeat;
+    background-position: -160px -75px;
+}
+
+/* 底部信息栏样式 */

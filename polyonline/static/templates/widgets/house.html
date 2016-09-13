@@ -1,0 +1,54 @@
+    <div class="house-container" id='house'>
+        <div class="house-filter-container">
+            <p class="house-filter-title">产品一览</p>
+            <div class='house-filter-right'>
+                {% if not isMobile %}
+                {% if property.id  %}
+                <p class="house-filter-lists"><a href='project.html?property_id={= property.id =}'>全部户型</a></p>
+                {% else %}
+                <p class="house-filter-lists"><a href='houses.html'>全部户型</a></p>
+                {% endif %}
+                {% endif %}
+                <div class="house-filter-lists">
+                    <p>面积段</p>
+                    {% import 'macro/macro.html' as macro %}
+                    {= macro.selectAreaFilter(filterList.area_filter, id='select-container-1', areaValue=areaValue) =}
+                </div>
+                <div class="house-filter-lists">
+                    <p>格局</p>
+                    {% import 'macro/macro.html' as macro %}
+                    {= macro.selectStructureFilter(filterList.structure_filter, id='select-container-2', structureValue=structureValue) =}
+                </div>
+                {% if isMobile %}
+                {% if property.id  %}
+                <p class="house-filter-lists"><a href='project.html?property_id={= property.id =}'>全部户型</a></p>
+                {% else %}
+                <p class="house-filter-lists"><a href='houses.html'>全部户型</a></p>
+                {% endif %}
+                {% endif %}
+            </div>
+        </div>
+        <ul class="house-list-container" a='{=structures.result =}'>
+            {% if structures.result != '' %}
+            {% for structure in structures.result %}
+            <li class="house-list">
+                <div class="house-img-container"><a href='comment.html?&structure_id={= structure.id =}&property_id={= property.id =}'><img src="img/house/{= structure.name =}/{= structure.image =}" alt=""></a></div>
+                <p>{= structure.name =}</p>
+                <p>
+                    <span>{= structure.room_count =}房{= structure.hall_count =}厅{= structure.toilet_count =}卫</span>
+                    <span>{= structure.area =}㎡</span>
+                </p>
+            </li>
+            {% endfor %}
+            {% else %}
+            <li><p>无对应户型</p></li>
+            {% endif %}
+        </ul>
+        <ul class="page-flipping-container">
+            <li class="page-flipping">1</li>
+            <li class="page-flipping checked">2</li>
+            <li class="page-flipping">3</li>
+            <li class="page-flipping">4</li>
+            <li class="page-flipping">5</li>
+        </ul>
+    </div>

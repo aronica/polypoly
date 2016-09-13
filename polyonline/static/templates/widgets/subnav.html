@@ -1,0 +1,65 @@
+    <div class="subnav-container">
+        <div class="subnav">
+        {% if isMobile %}
+            <div class="login-container">
+                {% if userInfo %}
+                <div class="login-right"><img class="login-avatar" src="{= userInfo.headimgurl =}" alt=""></div>
+                <div class="login-left">
+                    <div class="login-top">
+                        <p>你好，<span><a href='personal.html'>{= userInfo.nickname =}</a></span></p>
+                    </div>
+                    <div class="login-bottom">{= datetime =}</div>
+                </div>
+                {% else %}
+                <div class="login-right"></div>
+                <div class="login-left">
+                    <div class="login-top">
+                        <p>
+                            你好，
+                            <span><a href='personal.html'>游客</a></span>
+                            |
+                            <span><a href='personal.html'>登录</a></span>
+                        </p>
+                    </div>
+                    <div class="login-bottom">{= datetime =}</div>
+                </div>
+                {% endif %}
+            </div>
+            <div class="search-container">
+                <p class="search-text">近期开盘的项目：</p>
+                {% import 'macro/macro.html' as macro %}
+                {% if cityList %}
+                {= macro.selectData(cityList, city, id='select-container') =}
+                {% endif %}
+            </div>
+        {% else %}
+            <div class="search-container">
+                <p class="search-text">近期开盘的项目：</p>
+                {% import 'macro/macro.html' as macro %}
+                {% if cityList %}
+                {= macro.selectData(cityList, city, id='select-container') =}
+                {% endif %}
+            </div>
+            <div class="login-container">
+                {% if userInfo %}
+                <div class="login-right"><img class="login-avatar" src="{= userInfo.headimgurl =}" alt=""></div>
+                <div class="login-left">
+                    <div class="login-top">
+                        <p>你好，<span><a href='personal.html'>{= userInfo.nickname =}</a></span></p>
+                    </div>
+                    <div class="login-bottom">{= datetime =}</div>
+                </div>
+                {% else %}
+                <div class="login-right"></div>
+                <div class="login-left">
+                    <div class="login-top">
+                        <p>你好，<span><a href='personal.html'>游客</a></span></p>
+                        <span><a href='personal.html'>登录</a></span>
+                    </div>
+                    <div class="login-bottom">{= datetime =}</div>
+                </div>
+                {% endif %}
+            </div>
+        {% endif %}
+        </div>
+    </div>

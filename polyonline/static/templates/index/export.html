@@ -1,0 +1,39 @@
+{% extends 'layout.html' %}
+{% block title %}首页 - 保利地产{% endblock %}}
+{% if isMobile %}
+{% block style_mobile %}
+    {= super() =}
+    <link rel='stylesheet' href='css/index_mobile/export.css'>
+{% endblock %}
+{% else %}
+{% block style %}
+    {= super() =}
+    <link rel='stylesheet' href='css/index_mobile/export.css'>
+{% endblock %}
+{% endif %}
+{% block content %}
+<div class="content" id='content'>
+    <ul class="bar">
+        <li class="bar-list" @click='changeOption("structure")'>户型数据导出</li>
+        <li class="bar-list" @click='changeOption("user")'>客户数据导出</li>
+        <li class="bar-list" @click='changeOption("comment")'>评论导出</li>
+        <li class="bar-list" @click='changeOption("structure_management")'>户型管理</li>
+    </ul>
+    <div class='houses'>
+        <p>选择一个户型</p>
+        <select class='houses-option' v-model='name'>
+            <option v-for='name in names'>{{ name }}</option>
+        </select>
+    </div>
+    <div class='city'>
+        <p>选择一个城市</p>
+        <select class='city-option' v-model='city'>
+            <option v-for='city in cities'>{{ city }}</option>
+        </select>
+    </div>
+    <a href='{= staticAddress =}/{{ item }}/export?name={{ name }}&city={{ city }}'><p id='export-button'>导出 Excel</p></a>
+</div>
+{% endblock %}
+{% block script %}
+<script src='js/index/export.js'></script>
+{% endblock script %}

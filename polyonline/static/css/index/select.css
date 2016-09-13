@@ -1,0 +1,40 @@
+.select-container {
+
+}
+
+.selected,
+.options {
+    cursor: pointer;
+}
+
+.selected::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #1e46a1;
+    border-bottom: 2px solid #1e46a1;
+    display: inline-block;
+    transform: rotate(45deg);
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.select-options {
+    display: none;
+    z-index: 1000;
+    position: relative;
+    background-color: white;
+    border-radius: 4px;
+    line-height: 24px;
+    border: 1px solid #eee;
+    margin-top: -20px;
+}
+
+.select-options .options {
+    border-bottom: 1px solid #eee;
+    padding: 4px;
+}
+
+.select-options .options:last-child {
+    border-bottom: none;
+}

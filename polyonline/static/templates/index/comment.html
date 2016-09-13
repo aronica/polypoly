@@ -1,0 +1,146 @@
+{% extends 'layout.html' %}
+{% block title %}项目巡览 - 保利地产{% endblock %}
+{% if isMobile %}
+{% block style_mobile %}
+    {= super() =}
+    <link rel='stylesheet' href='css/index_mobile/subnav.css'>
+    <link rel='stylesheet' href='css/index_mobile/comment.css'>
+{% endblock %}
+{% else %}
+{% block style %}
+    {= super() =}
+    <link rel='stylesheet' href='css/index/subnav.css'>
+    <link rel='stylesheet' href='css/index/comment.css'>
+{% endblock %}
+{% endif %}
+{% block content %}
+<div class="content">
+    {% include "widgets/subnav.html" %}
+    <div class="sketchfab-embed-wrapper"></div>
+    <div class='yun-show-container'>
+        <div class='yun-show'>
+            <a target='_blank' href='http://720yun.com/t/{= structureDetail["720yun_id"] =}'>
+            <div class='yun-icon'></div>
+            <p>全景漫游</p>
+            </a>
+        </div>
+    </div>
+    <div class="comment-container" id='comments'>
+        <ul class="product-info">
+            <li>
+                <span>{= structureDetail.name =}</span>
+                {% if not fromHouse %}
+                <span>暂缺</span>
+                {% endif %}
+            </li>
+            <li>
+                <span>{= structureDetail.room_count =}房{= structureDetail.hall_count =}厅{= structureDetail.toilet_count =}卫</span>
+                <span>约 {= structureDetail.area =}/㎡</span>
+            </li>
+        </ul>
+        <ul class="comment-lists">
+            <li class="comment-list">
+                <div class="comment-left"><img src="img/house/{= structureDetail.name =}/{= structureDetail.hall_image =}" alt=""></div>
+                <div class="comment-right">
+                    <div class="comment-top">
+                        <p class="comment-title">给客厅评价</p>
+                        <ul>
+                            <li class='iconfont' index={{$index}} v-for='star in hall_stars' track-by='$index' @mouseover='scoreMouseOver($index, "hall")'>{{ star }}</li>
+                        </ul>
+                    </div>
+                    <div class="comment-bottom"><textarea id="" name="客厅" v-model='hall_comment'></textarea></div>
+                </div>
+            </li>
+            <li class="comment-list">
+                <div class="comment-left"><img src="img/house/{= structureDetail.name =}/{= structureDetail.kitchen_image =}" alt=""></div>
+                <div class="comment-right">
+                    <div class="comment-top">
+                        <p class="comment-title">给厨房餐厅评价</p>
+                        <ul>
+                            <li class='iconfont' index={{$index}} v-for='star in dining_stars' track-by='$index' @mouseover='scoreMouseOver($index, "dining")'>{{ star }}</li>
+                        </ul>
+                    </div>
+                    <div class="comment-bottom"><textarea id="" name="厨房餐厅" v-model='dinning_hall_comment'></textarea></div>
+                </div>
+            </li>
+            <li class="comment-list">
+                <div class="comment-left"><img src="img/house/{= structureDetail.name =}/{= structureDetail.bedroom_image =}" alt=""></div>
+                <div class="comment-right">
+                    <div class="comment-top">
+                        <p class="comment-title">给卧室评价</p>
+                        <ul>
+                            <li class='iconfont' index={{$index}} v-for='star in bedroom_stars' track-by='$index' @mouseover='scoreMouseOver($index, "bedroom")'>{{ star }}</li>
+                        </ul>
+                    </div>
+                    <div class="comment-bottom"><textarea id="" name="卧室" v-model='bedroom_comment'></textarea></div>
+                </div>
+            </li>
+            <li class="comment-list">
+                <div class="comment-left"><img src="img/house/{= structureDetail.name =}/{= structureDetail.toilet_image =}" alt=""></div>
+                <div class="comment-right">
+                    <div class="comment-top">
+                        <p class="comment-title">给卫生间评价</p>
+                        <ul>
+                            <li class='iconfont' index={{$index}} v-for='star in toilet_stars' track-by='$index' @mouseover='scoreMouseOver($index, "toilet")'>{{ star }}</li>
+                        </ul>
+                    </div>
+                    <div class="comment-bottom"><textarea id="" name="卫生间" v-model='toilet_comment'></textarea></div>
+                </div>
+            </li>
+        </ul>
+        <div class="comment-overview">
+            <div class="comment-top">
+                <p class="comment-title">综合评价</p>
+                <ul>
+                    <li class='iconfont' index={{$index}} v-for='star in overview_stars' track-by='$index' @mouseover='scoreMouseOver($index, "overview")'>{{ star }}</li>
+                </ul>
+            </div>
+            <div class="comment-bottom"><textarea id="" name=“综合" cols="130" rows="10" v-model='overview_comment'></textarea></div>
+        </div>
+        <div class="submit" @click='submit'>提交</div>
+    </div>
+</div>
+<div class='addtional-info' id='addtional-info' v-show='showAddtionalInfo'>
+    <div class='personal-info'>
+        <div class='icon-close' @click='cancel'>+</div>
+        <div class='alert-title'>
+            <div><img src="/img/index/icon_p.png"></div>
+            <p>意见小P已经收到啦！</p>
+            <p>感谢参与产品调研～～</p>
+        </div>
+        <div class='alert-info'>若选择的户型最终实施建设，则会在约半年内开放认筹！届时我们会直接赠送 200 元/㎡ 房款抵扣！您可以选择留下联系方式，方便小 P 通知您最新的产品信息：</div>
+        <ul>
+            <li>
+                <span>您的称谓</span>
+                <input type='text' v-model='title'>
+            </li>
+            <li>
+                <span>您的手机</span>
+                <input type='tel' v-model='phone'>
+            </li>
+            <li>
+                <span>预计购房时间</span>
+                <select v-model='estimated_time'>
+                    <option selected>3 个月内</option>
+                    <option>6 个月内</option>
+                    <option>9 个月内</option>
+                    <option>12 个月内</option>
+                </select>
+            </li> 
+        </ul>
+        <div class='alert-button' @click='confirm'>确认提交</div>
+        <div class='alert-button' @click='cancel'>不用谢谢</div>
+    </div>
+</div>
+{% endblock %}
+{% block script %}
+<script>
+var MODELS = '{= structureDetail.sketchfab_id =}';
+var isMobile = {= isMobile =};
+</script>
+<script src='js/lib/jquery.min.js'></script>
+<script src='js/lib/ajax.js'></script>
+<script src='js/lib/utils.js'></script>
+<script src="js/index/comment.js"></script>
+<script src='js/index/subnav.js'></script>
+{% endblock script %}

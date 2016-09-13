@@ -1,0 +1,12 @@
+*.zip
+.DS_Store
+*.pyc
+.grunt
+*.gem
+*.log*
+*.sublime-project
+*.sublime-workspace
+.idea
+*.iml
+*.swp
+nohup.out

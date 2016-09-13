@@ -1,0 +1,143 @@
+.house-container {
+    width: 1090px;
+    margin: 40px auto 0 auto;
+}
+
+.house-filter-container {
+    line-height: 40px;
+    height: 40px;
+}
+
+.house-filter-title {
+    float: left;
+    font-size: 20px;
+    color: #1e46a1;
+}
+
+.house-filter-right {
+    float: right;
+}
+
+.house-filter-lists {
+    float: right;
+    text-align: right;
+    margin-left: 20px;
+    height: 50px;
+}
+
+.house-filter-lists > p {
+    float: left;
+    margin-right: 4px;
+}
+
+p.house-filter-lists > a,
+p.house-filter-lists > a:visited,
+p.house-filter-lists > a:hover {
+    text-decoration: none;
+    color: #eee;
+}
+
+p.house-filter-lists {
+    background-color: #1e46a2;
+    color: #eee;
+    border-radius: 4px;
+    padding: 0 8px;
+    line-height: 30px;
+    height: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.house-list-container {
+    overflow: auto;
+    margin-top: 20px;
+}
+
+.house-list-container::after {
+    clear: left;
+}
+
+.house-list {
+    float: left;
+    width: 508px;
+    margin-bottom: 70px;
+    border: 1px solid #eee;
+}
+
+.house-list:nth-of-type(2n+1) {
+    margin-right: 70px;
+}
+
+.house-list > p:nth-of-type(1) {
+    background-color: #eee;
+}
+
+.house-list > p {
+    padding: 0 32px;
+    line-height: 40px;
+}
+
+.house-list span:nth-of-type(2n+2) {
+    float: right;
+}
+
+.house-img-container  img {
+    margin: 50px auto;
+    display: block;
+}
+
+.page-flipping-container {
+    margin: 0 auto 20px auto;
+    line-height: 40px;
+    overflow: auto;
+    display: table;
+    text-align: center;
+    display: none;
+}
+
+.page-flipping-container::after {
+    content: '>';
+    margin-left: 10px;
+}
+
+.page-flipping {
+    float: left;
+    width: 40px;
+    margin-right: 5px;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+
+.page-flipping:hover {
+    background-color: #eee;
+}
+
+.page-flipping.checked {
+    background-color: #1e46a1;
+    color: #eee;
+}
+
+#select-container-1.select-container,
+#select-container-2.select-container {
+    display: inline-block;
+    height: 40px;
+    width: 115px;
+    text-align: center;
+}
+
+#select-container-1 .select-options,
+#select-container-2 .select-options {
+    margin-top: 0;
+    line-height: 30px;
+}
+
+#select-container-1 .select-options > li,
+#select-container-2 .select-options > li {
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+#select-container-1 .select-options > li:last-child,
+#select-container-2 .select-options > li:last-child {
+    border-bottom: none;
+}

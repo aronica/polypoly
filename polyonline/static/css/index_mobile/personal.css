@@ -1,0 +1,80 @@
+.search-container {
+    visibility: hidden;
+}
+
+.house-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.house-title {
+    line-height: 36px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #1e46a1;
+}
+
+.house {
+    margin: 0 10px;
+}
+
+.house-img > img {
+    width: 100%;
+}
+
+.infos {
+    line-height: 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.infos > li > span:nth-of-type(2n+2) {
+    float: right;
+}
+
+.comment-title {
+    line-height: 60px;
+    color: #1e46a1;
+}
+
+.comment-icon {
+    width: 24px;
+    height: 24px;
+    float: left;
+    background-image: url(../../img/index/icons.png);
+    background-size: 591.9px 182.4px;;
+    background-position: -512px -52px;
+    background-repeat: no-repeat;
+    margin-top: 19px;
+}
+
+.comment-container {
+    border-bottom: 1px solid #eee;
+    line-height: 40px;
+    word-break: break-all;
+}
+
+.comment-container span:nth-of-type(2n+1) {
+    font-weight: bold;
+}
+
+.comment-container span:nth-of-type(2n+2) {
+    color: #999;
+}
+
+.rechoose-button {
+    width: 240px;
+    margin: 30px auto 0 auto;
+    border-radius: 8px;
+    background-color: #1e46a1;
+    line-height: 40px;
+    font-size: 18px;
+    color: #eee;
+    text-align: center;
+    cursor: pointer;
+}
+
+.rechoose-button a,
+.rechoose-button a:visited {
+    color: #eee;
+}
+

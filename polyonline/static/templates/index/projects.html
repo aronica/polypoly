@@ -1,0 +1,34 @@
+{% extends 'layout.html' %}
+{% block title %}项目巡览 - 保利地产{% endblock %}}
+{% if isMobile %}
+{% block style_mobile %}
+    {= super() =}
+    <link rel='stylesheet' href='css/index_mobile/subnav.css'>
+    <link rel='stylesheet' href='css/index_mobile/select.css'>
+    <link rel='stylesheet' href='css/index_mobile/project_list.css'>
+{% endblock %}
+{% else %}
+{% block style %}
+    {= super() =}
+    <link rel='stylesheet' href='css/index/subnav.css'>
+    <link rel='stylesheet' href='css/index/select.css'>
+    <link rel='stylesheet' href='css/index/project_list.css'>
+{% endblock %}
+{% endif %}
+{% block content %}
+<div class="content">
+    {% include "widgets/subnav.html" %}
+    <div class="project-list-container">
+        <ul class="project-list">
+            {% for property in propertyList %}
+            {% include "widgets/single_project.html" %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock %}
+{% block script %}
+<script src='js/lib/ajax.js'></script>
+<script src='js/lib/utils.js'></script>
+<script src='js/index/subnav.js'></script>
+{% endblock script %}

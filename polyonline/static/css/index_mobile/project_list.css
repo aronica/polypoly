@@ -1,0 +1,147 @@
+.project-list-container {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.project-item {
+    margin: 0 10px;
+}
+
+.project-item-title {
+    line-height: 36px;
+    font-size: 20px;
+    color: #1e46a1;
+}
+
+.item-left-top {
+    height: 321.5px;
+}
+
+.item-left-top > img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-left-bottom {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+}
+
+.item-img {
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 113.2px;
+    margin-right: 2px;
+}
+
+.item-img:last-child {
+    margin-right: 0;
+}
+
+.item-img > img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-title {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+
+.item-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+.item-info-container {
+    margin-top: 10px;
+    line-height: 32px;
+    font-size: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.project-button {
+    width: 240px;
+    margin: 30px auto;
+    border-radius: 8px;
+    background-color: #1e46a1;
+    line-height: 40px;
+    font-size: 18px;
+    color: #eee;
+    text-align: center;
+    cursor: pointer;
+}
+
+.item-icon {
+    width: 25px;
+    height: 25px;
+    background-image: url(../../img/index/icons.png);
+    background-size: 591.9px 182.4px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 3.5px;
+}
+
+.item-icon[alt="项目概况"] {
+    background-position: -511px -51px;
+}
+
+.item-icon[alt="项目区位"] {
+    background-position: -225px -48px;
+}
+
+.item-icon[alt="预计开盘"] {
+    background-position: -257px -49px;
+}
+
+.item-icon[alt="产权年限"] {
+    background-position: -289px -49px;
+}
+
+.item-icon[alt="周边配套"] {
+    background-position: -322px -51px;
+}
+
+.item-info:nth-of-type(1) > .item-msg,
+.item-info:nth-of-type(4) > .item-msg {
+    float: left;
+}
+
+.item-info:first-child > span {
+    width: 80px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 5px;
+    background-image: url(../../img/index/icons.png);
+    background-size: 986.5px 304px;
+    background-position: -160px -75px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.surroundings-container {
+    overflow: hidden;
+}
+
+.surroundings {
+    height: 25px;
+    padding: 0 4px;
+    margin: 3.5px 12px 3.5px 0;
+    background-color: #1e46a1;
+    border-radius: 4px;
+    color: #eee;
+    line-height: 25px;
+    float: left;
+    cursor: pointer;
+}
+
+a[href^="project.html"] {
+    text-decoration: none;
+}

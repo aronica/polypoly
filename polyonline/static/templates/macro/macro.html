@@ -1,0 +1,53 @@
+{% macro selectData(data, city='佛山', id='select-container') %}
+<div class="select-container" id='{= id =}'>
+    <div class="selected" value="{= city =}" @click='toggleOptions("{= city =}")'>{= city =}</div>
+    <ul class="select-options">
+        {% for item in data %}
+        <li class="options" value="{= item =}" @mouseover='highlight' @click='selectOptions("{= item =}")'>{= item =}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endmacro %}
+
+{% macro selectAreaFilter(data, id='select-container', areaValue='全部') %}
+<div class="select-container" id='{= id =}'>
+    {% if areaValue == '全部' or areaValue == '' %}
+    {% set areaValue = '全部' %}
+    <div class="selected" value="{=areaValue=}" @click='toggleOptions("{=areaValue=}")'>{=areaValue=}</div>
+    {% else %}
+    {% set arr = areaValue.split(',') %}
+    {% if arr[1] != '-1' %}
+    <div class="selected" value="{=areaValue=}" @click='toggleOptions("{=areaValue=}")'>{= arr[0] =}-{= arr[1]=}㎡</div>
+    {% else %}
+    <div class="selected" value="{=areaValue=}" @click='toggleOptions("{=areaValue=}")'>{= arr[0] =}㎡及以上</div>
+    {% endif %}
+    {% endif %}
+    <ul class="select-options">
+        {% for item in data %}
+        {% if item[1] == -1 %}
+        <li class="options" value="{= item[0] =},{= item[1] =}" @mouseover='highlight' @click='selectOptions("{= item[0] =},{=item[1]=}", $event)'>{= item[0] =}㎡及以上</li>
+        {% else %}
+        <li value="{=item[0]=},{=item[1]=}" @click='selectOptions("{= item[0] =},{=item[1]=}", $event)'>{= item[0] =}-{= item[1] =}㎡</li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+{% endmacro %}
+
+{% macro selectStructureFilter(data, id='select-container', structureValue='全部') %}
+<div class="select-container" id='{= id =}'>
+    {% if structureValue == '全部' or structureValue == ''%}
+    {% set structureValue = '全部' %}
+    <div class="selected" value="{=structureValue=}" @click='toggleOptions("{=structureValue=}")'>{=structureValue=}</div>
+    {% else %}
+    {% set arr = structureValue.split(',')%}
+    <div class="selected" value="{=structureValue=}" @click='toggleOptions("{=structureValue=}")'>{= arr[0] =}房{= arr[1] =}厅{= arr[2] =}卫</div>
+    {% endif %}
+    <ul class="select-options">
+        {% for item in data %}
+        <li @click='selectOptions("{=item[0]=},{=item[1]=},{=item[2]=}", $event)' value="{=item[0]=},{=item[1]=},{=item[2]=}">{= item[0] =}房{= item[1] =}厅{= item[2] =}卫</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endmacro %}
+

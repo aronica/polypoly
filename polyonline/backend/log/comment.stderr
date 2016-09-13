@@ -1,0 +1,104 @@
+started with pid 30255
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+WARNING:polyonline-polyonline-comment-1:(2006, 'MySQL server has gone away')
+WARNING:polyonline-polyonline-comment-1:start reconnect
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:make connection
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+WARNING:polyonline-polyonline-comment-1:(2006, 'MySQL server has gone away')
+WARNING:polyonline-polyonline-comment-1:start reconnect
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+WARNING:polyonline-polyonline-comment-1:(2006, 'MySQL server has gone away')
+WARNING:polyonline-polyonline-comment-1:start reconnect
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection
+DEBUG:polyonline-polyonline-comment-1:get connection from pool
+DEBUG:polyonline-polyonline-comment-1:cache connection

@@ -1,0 +1,93 @@
+html,
+body {
+    background-color: #eaeff4;;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+.banner-img {
+   width: 100%;
+   height: 100%;
+}
+
+#banner-slides,
+#layout-slides{
+    display: none;
+}
+
+.layout {
+    margin: 40px auto 0 auto;
+}
+
+#banner-slides .slidesjs-navigation {
+    margin-top:3px;
+}
+
+#banner-slides .slidesjs-previous {
+    margin-right: 5px;
+    float: left;
+}
+
+#banner-slides .slidesjs-next {
+    margin-right: 5px;
+    float: left;
+}
+
+.banner .slidesjs-pagination {
+    list-style: none;
+    margin: -92px 0 0 120px;
+    position: relative;
+    z-index: 10;
+    height: 27px;
+}
+
+.layout .slidesjs-pagination {
+    list-style: none;
+    margin: -92px 0 0 120px;
+    position: relative;
+    z-index: 10;
+    height: 27px;
+}
+
+.slidesjs-pagination li {
+    float: left;
+    margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    width: 50px;
+    height: 0;
+    padding-top: 10px;
+    background-color: rgba(100, 100, 100, 0.7);
+    float: left;
+    overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+    background-color: rgba(30, 70, 161, 0.8);
+}
+
+.slidesjs-pagination li a:hover {
+    background-color: #1e46a1;
+}
+
+#banner-slides a:link,
+#banner-slides a:visited {
+    color: #333
+}
+
+#banner-slides a:hover,
+#banner-slides a:active {
+    color: #9e2020
+}
+
+.footer-container {
+    margin-top: 0;
+}
