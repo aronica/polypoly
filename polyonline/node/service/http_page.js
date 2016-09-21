@@ -23,7 +23,7 @@ let nj = nunjucks.configure(tplPath, {
     blockStart: '{%',
     blockEnd: '%}',
     variableStart: '{=',
-    variableEnd: '=}',
+    variableEnd: '=}'
   },
   watch: true
 });
@@ -50,6 +50,7 @@ module.exports = {
     let city = this.request.query.city || ''
 
     let cityList = yield renderer.getCityList
+    //cityList.result.cities = cityList.result.cities.splice(0,0,'全部城市')
     let propertyList = yield renderer['getProperyList'](city)
     this.body = nj.render('index/projects.html', {
       isMobile: this.isMobile,

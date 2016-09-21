@@ -11,7 +11,7 @@ module.exports = {
   host: 'http://localhost:9527',
   staticHost: 'http://online.polycn.com:9528',
   templatePath: '../static/templates/',
-  port: 80,
+  port: 8004,
   // weixin 登录相关 web
   weixinAccessToken: 'https://api.weixin.qq.com/sns/oauth2/access_token',
   weixinAppid: 'wx6528c82cfdb6e6ae',

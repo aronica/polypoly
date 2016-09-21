@@ -23,6 +23,7 @@ class CityListHandler(wrapper.BaseHandler):
         req.action = req.LIST
         res = self.send_call(module.MODULE_POLY, req)
         if res.status == res.SUCCESS:
+            print(self.object2output(res))
             self.make_return(public_var.RESULT_CODE_SUCCESS, 'success', self.object2output(res))
         else:
             self.make_return(public_var.RESULT_CODE_SERVER_ERROR, 'fail', None)

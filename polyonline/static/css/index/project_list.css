@@ -67,39 +67,43 @@
     -moz-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    margin-left: 70px;
+    margin-left: 40px;
 }
 
 .item-title {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 32px;
+    color: #1d49a5;
 }
 
 
 .item-subtitle {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 28px;
     padding: 10px 0;
     border-bottom: 1px solid #eee;
+    /*margin-top: 10px;*/
+
 }
 .item-info-container {
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     line-height: 32px;
     font-size: 14px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #eee;
 }
 
 .project-button {
-    width: 240px;
-    margin-top: 30px;
-    border-radius: 8px;
-    background-color: #1e46a1;
-    line-height: 40px;
-    font-size: 18px;
-    color: #eee;
+    /*width: 240px;*/
+    height: 58px;
+    /*border-radius: 8px;*/
+    /*background-color: #1e46a1;*/
+    /*line-height: 40px;*/
+    font-size: 20px;
+    /*color: #eee;*/
     text-align: center;
     cursor: pointer;
+    background: url(../../img/util/willing_1.png) no-repeat;
 }
 
 .item-icon {
@@ -137,16 +141,21 @@
     float: left;
 }
 
-.item-info:first-child > span {
-    width: 80px;
+span.item-gis {
+    width: 25px;
     height: 25px;
     display: inline-block;
     margin-right: 5px;
-    background-image: url(../../img/index/icons.png);
-    background-size: 986.5px 304px;
-    background-position: -160px -75px;
+    background-image: url(../../img/util/b6.png);
+    background-size: initial;
+    background-position: 0 0;
     background-repeat: no-repeat;
     cursor: pointer;
+}
+
+.item-info-container li{
+    dispaly: block;
+    overflow: hidden;
 }
 
 .surroundings-container {
@@ -155,11 +164,10 @@
 
 .surroundings {
     height: 25px;
-    padding: 0 4px;
+    padding: 0 8px;
     margin: 3.5px 12px 3.5px 0;
-    background-color: #1e46a1;
+    border: 1px solid #1e46a1;
     border-radius: 4px;
-    color: #eee;
     line-height: 25px;
     float: left;
     cursor: pointer;
@@ -167,4 +175,8 @@
 
 a[href^="project.html"] {
     text-decoration: none;
+}
+
+.item-right-top{
+    margin: 20px 0 0 0;
 }

@@ -3,7 +3,7 @@
         {% if isMobile %}
             <div class="login-container">
                 {% if userInfo %}
-                <div class="login-right"><img class="login-avatar" src="{= userInfo.headimgurl =}" alt=""></div>
+                <div class="login-user"><img class="login-avatar" src="{= userInfo.headimgurl =}" alt=""></div>
                 <div class="login-left">
                     <div class="login-top">
                         <p>你好，<span><a href='personal.html'>{= userInfo.nickname =}</a></span></p>
@@ -26,7 +26,7 @@
                 {% endif %}
             </div>
             <div class="search-container">
-                <p class="search-text">近期开盘的项目：</p>
+                <p class="search-text">项目城市选择：</p>
                 {% import 'macro/macro.html' as macro %}
                 {% if cityList %}
                 {= macro.selectData(cityList, city, id='select-container') =}
@@ -34,7 +34,7 @@
             </div>
         {% else %}
             <div class="search-container">
-                <p class="search-text">近期开盘的项目：</p>
+                <p class="search-text">项目城市选择：</p>
                 {% import 'macro/macro.html' as macro %}
                 {% if cityList %}
                 {= macro.selectData(cityList, city, id='select-container') =}
@@ -42,7 +42,7 @@
             </div>
             <div class="login-container">
                 {% if userInfo %}
-                <div class="login-right"><img class="login-avatar" src="{= userInfo.headimgurl =}" alt=""></div>
+                <div class="login-user"><img class="login-avatar" src="{= userInfo.headimgurl =}" alt=""></div>
                 <div class="login-left">
                     <div class="login-top">
                         <p>你好，<span><a href='personal.html'>{= userInfo.nickname =}</a></span></p>

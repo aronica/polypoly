@@ -1,5 +1,5 @@
 {% extends 'layout.html' %}
-{% block title %}项目巡览 - 保利地产{% endblock %}}
+{% block title %}项目巡览 - 保利云产品平台{% endblock %}}
 {% if isMobile %}
 {% block style_mobile %}
     {= super() =}
@@ -19,6 +19,7 @@
 <div class="content">
     {% include "widgets/subnav.html" %}
     <div class="project-list-container">
+        {% include "widgets/slide.html" %}
         <ul class="project-list">
             {% for property in propertyList %}
             {% include "widgets/single_project.html" %}

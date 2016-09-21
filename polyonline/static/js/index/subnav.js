@@ -12,7 +12,7 @@
   new Vue({
     el: '#select-container',
     data: {
-      selected: '',
+      selected: ''
     },
     methods: {
       toggleOptions: function(item) {
@@ -29,6 +29,10 @@
         console.log(item)
         document.querySelector('#select-container .select-options').style.display = 'none'
         var url = location.href.replace(location.search, '')
+        if(item === '全部城市'){
+          window.location.href = url;
+          return;
+        }
         window.location.href = url + '?city=' + item
       }
     }

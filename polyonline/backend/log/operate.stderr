@@ -1,1 +1,17 @@
-started with pid 30271
+started with pid 7276
+DEBUG:fafus-MacBook-Pro.local-polyonline-operate-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-operate-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-operate-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-operate-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-operate-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-operate-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-operate-2:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-operate-2:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-operate-2:get connection from pool
+WARNING:fafus-MacBook-Pro.local-polyonline-operate-2:(2006, 'MySQL server has gone away')
+WARNING:fafus-MacBook-Pro.local-polyonline-operate-2:start reconnect
+DEBUG:fafus-MacBook-Pro.local-polyonline-operate-2:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-operate-2:get connection from pool
+WARNING:fafus-MacBook-Pro.local-polyonline-operate-2:(2006, 'MySQL server has gone away')
+WARNING:fafus-MacBook-Pro.local-polyonline-operate-2:start reconnect
+DEBUG:fafus-MacBook-Pro.local-polyonline-operate-2:cache connection

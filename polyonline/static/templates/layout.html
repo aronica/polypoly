@@ -40,9 +40,15 @@
                 <ul class="header-nav" v-show='showNav'>
                     <li class="header-navlist"><a href="/">首页</a></li>
                     <li class="header-navlist"><a href='about.html'>关于保利华南</a></li>
+                    <li class="header-navlist"><a href='about.html?type=4#4'>保利云产品平台</a></li>
                     <li class="header-navlist"><a href="projects.html">项目巡览</a></li>
                     <li class="header-navlist"><a href="houses.html">产品巡览</a></li>
-                    <li class="header-navlist"><a href="/personal.html"><div class="header-loginlist" alt="微信"></div></a></li>
+                    {% if userInfo %}
+                    {% else %}
+                    <li class="header-navlist"><a href="/personal.html">登录</a></li>
+                    {% endif %}
+                    <li class="header-navlist"><a class="jiathis_button_weixin"><div class="header-loginlist" alt="微信"></div></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -62,7 +68,7 @@
             <li class="footer-info-container">
                 <div class="footer-info-logo" alt="关于我们"></div>
                 <div class="footer-title">关于我们</div>
-                <div class="footer-text"><a href="about.html?type=4#4" target="_blank">华南保利云产品概述</a></div>
+                <div class="footer-text"><a href="about.html?type=4#4" target="_blank">关于保利云产品平台</a></div>
                 <div class="footer-text"><a href="about.html?type=5#5" target="_blank">华南保利云产品使用规则</a></div>
                 <div class="footer-text"><a href="about.html?type=6#6" target="_blank">用户协议与隐私政策</a></div>
             </li>
@@ -82,5 +88,15 @@
 </body>
     <script src='js/lib/vue.js'></script>
     <script src='js/index/base.js'></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <style type="text/css">
+        .jiathis_style_32x32  .jtico{
+            padding-left: 0 !important;
+            background: none;
+        }
+        .jiathis_style_32x32 .jiathis_separator{
+            margin: 0;
+        }
+    </style>
     {% block script%} {% endblock script %}
 </html>

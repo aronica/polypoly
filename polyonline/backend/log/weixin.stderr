@@ -1,447 +1,633 @@
-started with pid 30279
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-WARNING:polyonline-polyonline-weixin-1:(2006, 'MySQL server has gone away')
-WARNING:polyonline-polyonline-weixin-1:start reconnect
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-WARNING:polyonline-polyonline-weixin-1:(2006, 'MySQL server has gone away')
-WARNING:polyonline-polyonline-weixin-1:start reconnect
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-WARNING:polyonline-polyonline-weixin-1:(2006, 'MySQL server has gone away')
-WARNING:polyonline-polyonline-weixin-1:start reconnect
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-WARNING:polyonline-polyonline-weixin-1:(2006, 'MySQL server has gone away')
-WARNING:polyonline-polyonline-weixin-1:start reconnect
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-WARNING:polyonline-polyonline-weixin-1:(2006, 'MySQL server has gone away')
-WARNING:polyonline-polyonline-weixin-1:start reconnect
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-WARNING:polyonline-polyonline-weixin-1:(2006, 'MySQL server has gone away')
-WARNING:polyonline-polyonline-weixin-1:start reconnect
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
-DEBUG:polyonline-polyonline-weixin-1:get connection from pool
-DEBUG:polyonline-polyonline-weixin-1:cache connection
+started with pid 7287
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+WARNING:fafus-MacBook-Pro.local-polyonline-weixin-1:(2006, 'MySQL server has gone away')
+WARNING:fafus-MacBook-Pro.local-polyonline-weixin-1:start reconnect
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-weixin-1:cache connection
