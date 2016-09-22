@@ -15,6 +15,19 @@
       effect: 'slide'
     }
   })
+
+  $('#layout-slides-left').slidesjs({
+    navigation: {
+      active: false
+    },
+    pagination: {
+      active: true,
+      effect: 'slide'
+    },
+    width:337,
+    height:303
+  })
+
   $('#layout-slides').slidesjs({
     navigation: {
         active: false
@@ -22,6 +35,8 @@
     pagination: {
         active: true,
         effect: 'slide'
-    }
+    },
+    width: '633',
+    height: '293'
   })
 })()

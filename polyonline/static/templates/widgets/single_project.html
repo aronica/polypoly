@@ -50,8 +50,15 @@
 {#                            <div class="item-icon" alt="项目概况"></div>#}
                             <p class="item-title">项目概况</p>
                         </div>
-                        <div class="item-subtitle">{= property.description =}</div>
-                        <a href="project.html?property_id={= property.id =}"><div class="project-button"></div></a>
+                        <div class="item-subtitle">
+                            {= property.description =}
+                            {% if page=='list' %}<a href="project.html?property_id={= property.id =}" class="more-link">&gt;&gt;&gt;查看更多</a>{% endif %}
+                        </div>
+                        {% if page!='detail' %}
+                        <div class="item-direction">
+                            <a href="project.html?property_id={= property.id =}"><div class="project-button"></div></a>
+                        </div>
+                        {% endif %}
                     </div>
                 </div>
             </li>

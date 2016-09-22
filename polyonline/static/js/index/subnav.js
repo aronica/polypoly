@@ -1,5 +1,7 @@
-  document.querySelector('.login-right').onclick = function() {
-    window.location.href = 'personal.html'
+  if(document.querySelector('.login-right')){
+    document.querySelector('.login-right').onclick = function() {
+      window.location.href = 'personal.html'
+    }
   }
 
   //document.addEventListener('click', function() {

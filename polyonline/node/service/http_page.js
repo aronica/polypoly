@@ -52,13 +52,25 @@ module.exports = {
     let cityList = yield renderer.getCityList
     //cityList.result.cities = cityList.result.cities.splice(0,0,'全部城市')
     let propertyList = yield renderer['getProperyList'](city)
+    let propertyListDetail = propertyList.result.properties
+    for(let i = 0;i<propertyListDetail.length;i++){
+      let item = propertyListDetail[i]
+      if(item.location && item.location.indexOf("（")>0){
+        item.location = item.location.substring(0,item.location.indexOf("（"))
+      }
+      if(item.description && item.description.length>250){
+        item.description = item.description.substring(0,250)
+        item.desc_more = true;
+      }
+    }
     this.body = nj.render('index/projects.html', {
       isMobile: this.isMobile,
       cityList: cityList.result.cities,
-      propertyList: propertyList.result.properties,
+      propertyList: propertyListDetail,
       userInfo: this.userInfo,
       city: city || '全部城市',
-      datetime: dt()
+      datetime: dt(),
+      page:'list'
     })
   },
   project: function* (next) {
@@ -72,15 +84,21 @@ module.exports = {
       let structureList = yield renderer['getStructureList'](propertyId, area_value, structure_value)
       let filterList = yield renderer['getStructureFilter'](propertyId)
 
+      let item = structureList.result.property
+      if(item.location && item.location.indexOf("（")>0){
+        item.location = item.location.substring(0,item.location.indexOf("（"))
+      }
+
       this.body = nj.render('index/project.html', {
       isMobile: this.isMobile,
-        property: structureList.result.property,
+        property: item,
         structures: structureList.result.structures,
         filterList: filterList.result,
         userInfo: this.userInfo,
         areaValue: area_value,
         structureValue: structure_value,
-        datetime: dt()
+        datetime: dt(),
+        page:'detail'
       })
     } else {
       this.redirect('/login/weixin?isMobile=' + this.isMobile)

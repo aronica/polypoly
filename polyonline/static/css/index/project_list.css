@@ -180,3 +180,15 @@ a[href^="project.html"] {
 .item-right-top{
     margin: 20px 0 0 0;
 }
+
+
+.item-direction{
+    position: absolute;
+    width: 341px;
+    height: 58px;
+}
+
+/**new**/
+.more-link{
+    color: #1e46a1;
+}

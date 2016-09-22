@@ -40,7 +40,8 @@ const getProperyList = co.wrap(function *(city) {
     }
   }
 
-  return request(data)
+  let ret = request(data)
+  return ret
 })
 
 const getStructureList = co.wrap(function *(propertyId, area_value, structure_value) {

@@ -16,7 +16,7 @@ body {
 }
 
 .layout {
-    margin: 10px auto 0 auto;
+    /*margin: 10px auto 0 auto;*/
 }
 
 #banner-slides .slidesjs-navigation {
@@ -43,10 +43,10 @@ body {
 
 .layout .slidesjs-pagination {
     list-style: none;
-    margin: -213px 0 0 850px;
+    margin: -10px 0 0 0;
     position: relative;
     z-index: 10;
-    height: 27px;
+    float: right;
 }
 
 .slidesjs-pagination li {
@@ -56,9 +56,9 @@ body {
 
 .slidesjs-pagination li a {
     display: block;
-    width: 50px;
+    width: 30px;
     height: 0;
-    padding-top: 10px;
+    padding-top: 8px;
     background-color: rgba(100, 100, 100, 0.7);
     float: left;
     overflow: hidden;
@@ -85,4 +85,97 @@ body {
 
 .footer-container {
     margin-top: 0;
+}
+
+
+/**add new**/
+
+.layout-container{
+    overflow: hidden;
+}
+
+.layout-wrap-left{
+    width: 337px;
+    height: 331px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 21px 21px;
+    /*float:left;*/
+}
+
+
+.layout-wrap-right{
+    /*margin-left: 10px;*/
+    /*float: left;*/
+    border: 1px solid #ccc;
+    width: 633px;
+    float: right;
+    height: 331px;
+    margin-top: 10px;
+    padding:21px 32px;
+}
+
+.layout .layout-wrap-dec{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.icon{
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+}
+
+.icon-sug{
+    background: url("../../img/util/icon-sug.png");
+}
+
+.icon-rect{
+    background: url("../../img/util/icon-rect.png");
+
+}
+
+.layout-title{
+    line-height: 22px;
+}
+
+.layout-title-text{
+    line-height: 22px;
+    height: 22px;
+    font-size: 14px;
+    color: #1e46a1;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.layout .layout-wrap-dec-bottom{
+    position: absolute;
+    left: 0px;
+    bottom: -3px;
+}
+
+.layout-wrap-right .layout .layout-wrap-dec-bottom{
+    position: absolute;
+    left: 0px;
+    bottom: -40px;
+}
+
+.layout-wrap-left .layout img{
+    width: 337px;
+    height: 313px;
+}
+#layout-slides-left{
+    width: 337px;
+    height: 303px;
+}
+
+.layout-wrap-right .layout{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.layout-wrap-right .layout img{
+    width: 633px;
+    height: 253px;
 }
