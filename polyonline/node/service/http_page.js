@@ -173,7 +173,8 @@ module.exports = {
     yield next
     this.body = nj.render('index/about.html', {
       isMobile: this.isMobile,
-      type: this.request.query.type || ''
+      type: this.request.query.type || 0,
+      titles:'公司简介'
     })
   },
   'export': function *(next) {
@@ -183,6 +184,31 @@ module.exports = {
       isMobile: this.isMobile,
       staticAddress: config.staticHost
     })
-  }
+  },
+  president: function* (next) {
+    yield next
+    this.body = nj.render('index/president.html', {
+      isMobile: this.isMobile,
+      type: this.request.query.type || 1,
+      titles:'领导致辞'
+    })
+  },
+  company: function* (next) {
+    yield next
+    this.body = nj.render('index/company.html', {
+      isMobile: this.isMobile,
+      type: this.request.query.type || 4,
+      titles:'保利集团'
+    })
+  },
+  platform: function* (next) {
+    yield next
+    this.body = nj.render('index/platform.html', {
+      isMobile: this.isMobile,
+      type: this.request.query.type || 4,
+      titles:'保利云产品平台',
+      menu:'关于我们'
+    })
+  },
 }
 

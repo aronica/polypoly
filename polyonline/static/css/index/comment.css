@@ -165,13 +165,23 @@ textarea {
     display: none;
 }
 
+.share-info {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.7);
+    display: none;
+}
+
 .personal-info {
     background-color: white;
     position: absolute;
     top: 100px;
-    padding: 20px;
+    padding: 20px 80px;
     margin: 0 calc(50% - 250px);
-    width: 500px;
+    width: 520px;
     border-radius: 4px;
     overflow: auto;
 }
@@ -191,42 +201,54 @@ textarea {
 
 .alert-title img {
     float: left;
-    width: 100px;
-    height: 100px;
-    margin-left: 40px;
+    width: 205px;
+    height: 185px;
+    /*margin-left: 40px;*/
 }
 
 .alert-title div {
     float: left;
-    width: 100px;
-    height: 100px;
+    width: 205px;
+    height: 186px;
 }
 
 .alert-title > p {
-    width: 250px;
-    margin-left: 250px;
+    /*width: 350px;*/
+    margin-left: 220px;
+    font-size: 30px;
+    line-height: 28px;
+    line-height: 48px;
 }
 
 .alert-title > p:nth-of-type(1) {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .alert-info {
     margin: 20px 0;
-    line-height: 24px;
+    line-height: 32px;
+    font-size: 16px;
 }
 
+
+
 .personal-info li > input {
-    width: 400px;
-    margin: 10px 0 10px 10px;
+    width: 409px;
+    margin: 10px 0 10px 0px;
     line-height: 24px;
+    /*-webkit-border-radius:2px;*/
+    /*-moz-border-radius:2px;*/
+    /*border-radius:2px;*/
+    /*background-color: #f0f0f0;*/
 }
 
 .personal-info select {
     font-size: 16px;
-    width: 360px;
-    margin: 10px 0 10px 10px;
-    line-height: 24px;
+    width: 415px;
+    margin: 10px 0 10px 0px;
+    line-height: 30px;
+    /*background-color: #f0f0f0;*/
+    height: 30px;
 }
 
 .alert-button {
@@ -240,3 +262,50 @@ textarea {
     color: #eee;
     cursor: pointer;
 }
+
+.special-red{
+    font-size: 26px;
+    color: #f00549;
+}
+
+.cmt-userinfo-form li{
+    line-height: 30px;
+}
+
+.cmt-userinfo-form li span{
+    display: inline-block;
+    width: 100px;
+    font-size: 14px;
+}
+
+.share-icon{
+    height: 77px;
+    width: 77px;
+    display: inline-block;
+    background:url("../../img/util/share.png") no-repeat;
+}
+.icon-weixin{
+    background-position: -45px -38px;
+}
+
+.icon-pengyouquan{
+    background-position: -265px -38px;
+}
+
+.share-container{
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+.sharebox{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.share-alert-info{
+    margin: 60px 0 0 30px;
+    line-height: 32px;
+    font-size: 16px;
+}
+

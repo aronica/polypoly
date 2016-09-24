@@ -1,12 +1,20 @@
 html,
 body {
-    background-color: #eaeff4;;
+    background-color: #fff;
+    word-spacing: 8px;
+    letter-spacing: 2px;
 }
 
 .content {
     width: 1090px;
     margin: 0 auto;
-    background-color: white;
+    /*background-color: white;*/
+}
+
+p{
+    line-height:22px;
+    font-size: 12px;
+    text-indent: 2em;
 }
 
 .banner-img {
@@ -22,7 +30,7 @@ body {
     display: -moz-flex;
     display: -ms-flex;
     display: flex;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #c6c6c6;
 }
 
 .bar-list {
@@ -30,7 +38,7 @@ body {
     width: 100px;
     line-height: 40px;
     text-align: center;
-    border-right: 1px solid #eee;
+    border-right: 1px solid #c6c6c6;
 }
 
 @font-face {
@@ -59,26 +67,48 @@ body {
     width: auto;
 }
 
-.text {
-    line-height: 40px;
-    text-align: center;
-    width: 200px;
+.text  {
+    line-height: 59px;
+    text-align: left;
+    width: 186px;
+    margin: 0;
+    padding: 0 0 0 20px;
+    border-bottom: 1px solid #c6c6c6;
+    display: inline-block;
+    text-decoration: none;
+    color: #666;
+}
+
+.text.active{
     background-color: #1e46a1;
     color: #eee;
-    float: right;
-    margin: 0;
-    padding: 0;
+}
+
+.text:hover{
+    padding-left: 20px;
+    background-color: #1e46a1;
+    color: #eee;
 }
 
 .about-poly {
-    margin: 0 200px 0 100px;
-    border-right: 1px solid #eee;
+    margin: 0 206px 0 110px;
+    border-right: 1px solid #c6c6c6;
+    padding-right: 110px;
+    min-height: 300px;
+    overflow: hidden;
+}
+
+.about-poly-new{
+    margin: 0 110px 0 110px;
+    min-height: 300px;
+    overflow: hidden;
 }
 
 .about-img {
-    margin: 40px 0;
-    border-bottom: 1px solid #eee;
-    padding-right: 50px;
+    padding: 40px 0 0 0;
+    border-bottom: 1px solid #c6c6c6;
+    /*padding-right: 50px;*/
+    margin-bottom:40px;
 }
 
 .poly-img {
@@ -95,13 +125,13 @@ body {
 
 .poly-img[alt="bottom"] {
     height: 30px;
-    width: 100px;
+    width: 70px;
     background-position: -270px -62px;
 }
 
 .article {
     line-height: 20px;
-    padding: 0 50px 60px 0;
+    /*padding: 0 50px 60px 0;*/
 }
 
 .article p {
@@ -114,10 +144,58 @@ body {
 }
 
 .section-title {
-    color: #1e46a1;
+    color: #5378ce;
+    font-size: 14px;
+    text-indent: 0em;
 }
 
 .article > div {
     padding-bottom: 10px;
     border-bottom: 1px solid #eee;
 }
+
+.bar-new{
+    display: block;
+    font-size: 14px;
+    padding: 10px 45px;
+    border-bottom: 1px solid #c6c6c6;
+    overflow: hidden;
+}
+
+.bar-new .bar-list-new{
+    float: left;
+    display: inline-block;
+    padding: 5px 10px 5px 0;
+}
+
+.bar-new .bar-list-new a{
+    text-decoration: none;
+    color: #666;
+}
+
+.bar-new .bar-list-new span.active{
+    color: #5378ce;
+}
+
+/**new**/
+.about-submenu{
+    float: right;
+    overflow: hidden;
+    width: 206px;
+    margin-top: -1px;
+}
+
+.sig{
+    overflow: hidden;
+    text-align: right;
+    margin-bottom:40px;
+}
+
+.poly-head{
+    text-align: center;
+}
+.sig-avatar{
+    text-align: center;
+    margin-bottom: 20px;
+}
+

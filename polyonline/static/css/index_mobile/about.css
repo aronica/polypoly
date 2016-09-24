@@ -1,6 +1,8 @@
 html,
 body {
-    background-color: #eaeff4;;
+    background-color: #fff;
+    word-spacing: 8px;
+    letter-spacing: 2px;
 }
 
 .content {
@@ -121,4 +123,49 @@ body {
 .article > div {
     padding-bottom: 10px;
     border-bottom: 1px solid #eee;
+}
+
+/**new**/
+.about-submenu{
+    float: right;
+    overflow: hidden;
+    width: 206px;
+    margin-top: -1px;
+}
+
+.sig{
+    overflow: hidden;
+    text-align: right;
+    margin-bottom:40px;
+}
+
+.poly-head{
+    text-align: center;
+}
+.sig-avatar{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bar-new{
+    display: block;
+    font-size: 14px;
+    padding: 10px 45px;
+    border-bottom: 1px solid #c6c6c6;
+    overflow: hidden;
+}
+
+.bar-new .bar-list-new{
+    float: left;
+    display: inline-block;
+    padding: 5px 10px 5px 0;
+}
+
+.bar-new .bar-list-new a{
+    text-decoration: none;
+    color: #666;
+}
+
+.bar-new .bar-list-new span.active{
+    color: #5378ce;
 }

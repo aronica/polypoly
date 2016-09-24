@@ -43,7 +43,8 @@ function submitData() {
     dataType: 'json',
     success: function(res, xhr, e) {
       console.log(res, xhr, e)
-      alert('您已成功提价评价，谢谢您的反馈！')
+      SHARE.el.style.display = 'block';
+      // alert('您已成功提价评价，谢谢您的反馈！')
     },
     error: function(res, xhr, e) {
 
@@ -72,7 +73,7 @@ var ALERT = new Vue({
   methods: {
     cancel: function() {
       this.el.style.display = 'none'
-      submitData()
+      // submitData()
     },
     'confirm': function() {
       this.el.style.display = 'none'
@@ -80,6 +81,28 @@ var ALERT = new Vue({
     }
   }
 })
+
+var SHARE = new Vue({
+  el: '#share-info',
+  data: {
+    title: '',
+    phone: '',
+    estimated_time: '',
+    showShareInfo: false,
+    el: document.querySelector('.share-info')
+  },
+  methods: {
+    cancel: function() {
+      this.el.style.display = 'none'
+      // submitData()
+    },
+    'confirm': function() {
+      this.el.style.display = 'none'
+      // submitData()
+    }
+  }
+})
+
 var COMMENTS = new Vue({
   el: '#comments',
   data: {

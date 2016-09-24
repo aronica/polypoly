@@ -1,0 +1,43 @@
+{% extends 'layout.html' %}
+{% block title %}首页 - 保利云产品平台{% endblock %}}
+{% if isMobile %}
+{% block style_mobile %}
+    {= super() =}
+    <link rel='stylesheet' href='css/index_mobile/about.css'>
+{% endblock %}
+{% else %}
+{% block style %}
+    {= super() =}
+    <link rel='stylesheet' href='css/index/about.css'>
+{% endblock %}
+{% endif %}
+{% block content %}
+<div class="content">
+    <div class="banner-img"><img src="img/index/poly.png" alt=""></div>
+    {% import 'macro/macro.html' as macro %}
+    {= macro.barlist(titles) =}
+    {= macro.submenu(type) =}
+
+    <div class="about-poly">
+        <ul class="about-img">
+            <li class="poly-head" alt='top'>
+                保利集团
+            </li>
+            <li class="poly-img" alt='bottom'></li>
+        </ul>
+        <div class="article">
+            <p>中国保利集团公司（以下简称“集团公司”）系国务院国有资产监督管理委员会管理的大型中央企业。集团公司于1992年经国务院、中央军委批准组建，1993年2月在国家工商管理总局注册。1999年3月，集团公司由军队划归中央大型企业工作委员会领导管理，成为国有重要骨干企业。2003年，由国务院国有资产监督管理委员会履行出资人职责。2010年，中国新时代控股（集团）公司涉军业务并入集团公司。</p>
+            <p>29年来，集团公司已形成以军民品贸易、房地产开发、文化艺术经营、矿产资源领域投资开发民爆器材生产及爆破服务为主业的“五业并举、多元发展”格局。截止2012年底，集团公司合并总资产3829亿元。</p>
+            <p>集团公司下辖保利科技有限公司、保利南方集团有限公司、保利（香港）控股有限公司、保利文化集团股份有限公司、保利能源控股有限公司、保利化工控股有限公司、保利财务有限公司、北京新保利大厦房地产开发有限公司等专业子公司，旗下拥有保利房地产（集团）股份有限公司（股票代码：S.H.600048）与保利置业集团有限公司（股票代码：H.K.00119）两家境内外上市公司。企业及项目遍及国内的北京、天津、上海、重庆、广州、深圳、香港等60多个城市和地区，在十几个国家设有子公司和办事处。 </p>
+        </div>
+        <div class="sig sig-link">
+            <a target="new" href="http://www.poly.com.cn"><img src="img/util/link.png"></a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block script %}
+<script src='js/lib/jquery.min.js'></script>
+<script src='js/lib/jquery.slides.js'></script>
+<script src='js/index/index.js'></script>
+{% endblock script %}

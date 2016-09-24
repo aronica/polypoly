@@ -40,6 +40,7 @@ app.use(function *(next) {
   if (userAgent.search(/android|iphone|ipad|windows\ phone/) >= 0) {
     isMobile = true
   }
+  isMobile = true;
   console.log('ip of the client: %s', this.request.ip)
   console.log('check whether the client is mobile: %s', isMobile)
   this.isMobile = isMobile
@@ -109,6 +110,16 @@ router.get('/weixin/oauth2_mobile', services.weixinOauth2Mobile)
 
 // test.html
 router.get('/test.html', handlers.test)
+
+//领导致辞
+router.get('/president.html',handlers.president)
+
+//保利集团
+router.get('/company.html',handlers.company)
+//保利云产品平台
+router.get('/platform.html',handlers.platform)
+
+
 
 // start server
 app.listen(port)

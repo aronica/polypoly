@@ -108,8 +108,8 @@
             <p>意见小P已经收到啦！</p>
             <p>感谢参与产品调研～～</p>
         </div>
-        <div class='alert-info'>若选择的户型最终实施建设，则会在约半年内开放认筹！届时我们会直接赠送 200 元/㎡ 房款抵扣！您可以选择留下联系方式，方便小 P 通知您最新的产品信息：</div>
-        <ul>
+        <div class='alert-info'>若选择的户型最终实施建设，则会在约半年内开放认筹！届时我们会直接赠送 <span class="special-red">200 元/㎡</span> 房款抵扣！您可以选择留下联系方式，方便小 P 通知您最新的产品信息：</div>
+        <ul class="cmt-userinfo-form">
             <li>
                 <span>您的称谓</span>
                 <input type='text' v-model='title'>
@@ -132,6 +132,18 @@
         <div class='alert-button' @click='cancel'>不用谢谢</div>
     </div>
 </div>
+
+<div class='share-info' id='share-info' v-show='showShareInfo'>
+    <div class='personal-info'>
+        <div class='icon-close' @click='cancel'>+</div>
+        <div class='share-alert-info'>嘿，感谢您支持保利线上产品！您可以将本调研分享给朋友，小P还会再赠送您 <span class="special-red">50 元/㎡</span> 的购房优惠!</div>
+        <div class="share-container">
+            <div class="sharebox"><span class="share-icon icon-weixin"></span></div>
+            <div class="sharebox"><span class="share-icon icon-pengyouquan"></span></div>
+        </div>
+    </div>
+</div>
+
 {% endblock %}
 {% block script %}
 <script>

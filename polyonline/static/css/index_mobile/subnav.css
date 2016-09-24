@@ -78,3 +78,22 @@
 .login-bottom {
     text-align: right;
 }
+
+
+.login-user{
+    height:64px;
+    width: 64px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-bottom {
+    text-align: right;
+}
+
+.login-avatar {
+    width: 64px;
+    height: 64px;
+    margin-top: 5px;
+    border-radius: 4px ;
+}

@@ -1,0 +1,59 @@
+{% extends 'layout.html' %}
+{% block title %}首页 - 保利云产品平台{% endblock %}}
+{% if isMobile %}
+{% block style_mobile %}
+    {= super() =}
+    <link rel='stylesheet' href='css/index_mobile/about.css'>
+{% endblock %}
+{% else %}
+{% block style %}
+    {= super() =}
+    <link rel='stylesheet' href='css/index/about.css'>
+{% endblock %}
+{% endif %}
+{% block content %}
+<div class="content">
+    <div class="banner-img"><img src="img/index/poly.png" alt=""></div>
+    {% import 'macro/macro.html' as macro %}
+    {= macro.barlist(titles) =}
+    {% if type == '' or type == '1' %}
+        <div class="about-submenu">
+            <div><a href="about.html" class="text">公司简介</a></div>
+            <div class=""><a href="president.html" class="text active">领导致辞</a></div>
+            <div class=""><a href="about.html" class="text">发展历程</a></div>
+            <div class=""><a href="about.html" class="text">企业荣誉</a></div>
+            <div class=""><a href="about.html" class="text">保利集团</a></div>
+        </div>
+
+        <div class="about-poly">
+            <ul class="about-img">
+                <li class="poly-head" alt='top'>
+                    董事长致辞
+                </li>
+                <li class="poly-img" alt='bottom'></li>
+            </ul>
+            <div class="article">
+                <p>南一直保持“做大做强的心、不辱使命的魂、攻坚克难的魄”，并孜孜践行该保利精神，和城市共同成长、和员工共同成长、和广大客户共同成长，以创造更光辉灿烂的明天。</p></p>
+                <p>同时，公司致力于不断完善区域配套，因地制宜，从文化、教育、生活、产品等多个方面不断为保利业主提供增值服务，丰富产品线，满足佛山人民的高品质居住、购物、办公的生活梦想。</p>
+                <p>保利地产，见证佛山城市飞速发展，在广佛一体化的背景下，在亚运会召开、地铁开通等众多兴奋点的推动下，华南公司2010年必将与佛山共同实现飞越发展。</p>
+            </div>
+            <div class="sig">
+                <img src="img/util/signature.jpg">
+            </div>
+            <div class="sig-avatar">
+                <img src="img/util/president.jpg">
+            </div>
+            <div class="sig-avatar">
+                <img src="img/util/address.png">
+            </div>
+    </div>
+    {% else %}
+
+    {% endif %}
+</div>
+{% endblock %}
+{% block script %}
+<script src='js/lib/jquery.min.js'></script>
+<script src='js/lib/jquery.slides.js'></script>
+<script src='js/index/index.js'></script>
+{% endblock script %}

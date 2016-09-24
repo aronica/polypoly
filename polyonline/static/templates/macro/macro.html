@@ -51,3 +51,53 @@
 </div>
 {% endmacro %}
 
+{% macro barlist(data) %}
+    <ul class="bar-new">
+        <li class="bar-list-new"><a href="/">首页</a></li>
+        <li class="bar-list-new">&gt;</li>
+        <li class="bar-list-new"><a href="about.html">关于保利华南</a></li>
+        <li class="bar-list-new">&gt;</li>
+        <li class="bar-list-new"><span class="active">{= data =}</span></li>
+    </ul>
+{% endmacro %}
+
+{% macro barlist2(data) %}
+    <ul class="bar-new">
+        <li class="bar-list-new"><a href="/">首页</a></li>
+        <li class="bar-list-new">&gt;</li>
+        <li class="bar-list-new"><a href="about.html">常见问题</a></li>
+        <li class="bar-list-new">&gt;</li>
+        <li class="bar-list-new"><span class="active">{= data =}</span></li>
+    </ul>
+{% endmacro %}
+
+{% macro submenu(type) %}
+    <div class="about-submenu">
+        {% if type == '0' or type == '' %}
+        <div><a href="about.html" class="text active">公司简介</a></div>
+        {% else %}
+        <div><a href="about.html" class="text">公司简介</a></div>
+        {% endif %}
+        {% if type == '1' %}
+        <div class=""><a href="president.html" class="text active">领导致辞</a></div>
+        {% else %}
+        <div class=""><a href="president.html" class="text">领导致辞</a></div>
+        {% endif %}
+        {% if type == '2' %}
+        <div class=""><a href="journey.html" class="text active">发展历程</a></div>
+        {% else %}
+        <div class=""><a href="journey.html" class="text">发展历程</a></div>
+        {% endif %}
+        {% if type == '3' %}
+            <div class=""><a href="honor.html" class="text active">企业荣誉</a></div>
+        {% else %}
+            <div class=""><a href="honor.html" class="text">企业荣誉</a></div>
+        {% endif %}
+        {% if type == '4' %}
+            <div class=""><a href="company.html" class="text active">保利集团</a></div>
+        {% else %}
+            <div class=""><a href="company.html" class="text">保利集团</a></div>
+        {% endif %}
+    </div>
+{% endmacro %}
+
