@@ -1,1 +1,21 @@
 started with pid 12122
+ERROR:fafus-MacBook-Pro.local-polyonline-visitor-1:Error 61 connecting to localhost:8000. Connection refused.
+Traceback (most recent call last):
+  File "/Users/fafu/puju_housing/polyonline/backend/src/base/redis_server.py", line 47, in _on_message_arriave
+    result = self._redis.brpop(self._module_name, timeout=1)
+  File "//anaconda/lib/python2.7/site-packages/redis/client.py", line 1166, in brpop
+    return self.execute_command('BRPOP', *keys)
+  File "//anaconda/lib/python2.7/site-packages/redis/client.py", line 570, in execute_command
+    connection.send_command(*args)
+  File "//anaconda/lib/python2.7/site-packages/redis/connection.py", line 556, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "//anaconda/lib/python2.7/site-packages/redis/connection.py", line 532, in send_packed_command
+    self.connect()
+  File "//anaconda/lib/python2.7/site-packages/redis/connection.py", line 436, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 61 connecting to localhost:8000. Connection refused.
+ERROR:root:[Errno 4] Interrupted system call
+Traceback (most recent call last):
+  File "/Users/fafu/puju_housing/polyonline/backend/bin/start_base.py", line 80, in run
+    pid, ret = os.wait()
+OSError: [Errno 4] Interrupted system call

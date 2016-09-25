@@ -40,7 +40,7 @@ app.use(function *(next) {
   if (userAgent.search(/android|iphone|ipad|windows\ phone/) >= 0) {
     isMobile = true
   }
-  isMobile = true;
+  // isMobile = true;
   console.log('ip of the client: %s', this.request.ip)
   console.log('check whether the client is mobile: %s', isMobile)
   this.isMobile = isMobile
