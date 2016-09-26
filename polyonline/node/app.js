@@ -119,6 +119,10 @@ router.get('/company.html',handlers.company)
 //保利云产品平台
 router.get('/platform.html',handlers.platform)
 
+router.get('/honor.html',handlers.honor)
+
+router.get('/journey.html',handlers.journey)
+
 
 
 // start server

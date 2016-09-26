@@ -1,0 +1,327 @@
+{% extends 'layout.html' %}
+{% block title %}首页 - 保利云产品平台{% endblock %}}
+{% if isMobile %}
+{% block style_mobile %}
+    {= super() =}
+    <link rel='stylesheet' href='css/index_mobile/about.css'>
+{% endblock %}
+{% else %}
+{% block style %}
+    {= super() =}
+    <link rel='stylesheet' href='css/index/about.css'>
+{% endblock %}
+{% endif %}
+{% block content %}
+<div class="content">
+    <div class="banner-img"><img src="img/index/poly.png" alt=""></div>
+    {% import 'macro/macro.html' as macro %}
+    {= macro.barlist(titles) =}
+    {% if type == '' or type == '1' %}
+        <div class="about-submenu">
+            <div><a href="about.html" class="text">公司简介</a></div>
+            <div class=""><a href="president.html" class="text">领导致辞</a></div>
+            <div class=""><a href="journey.html" class="text">发展历程</a></div>
+            <div class=""><a href="honor.html" class="text active">企业荣誉</a></div>
+            <div class=""><a href="company.html" class="text">保利集团</a></div>
+        </div>
+
+        <div class="about-poly">
+{#            <ul class="about-img">#}
+{#                <li class="poly-head" alt='top'>#}
+{#                    董事长致辞#}
+{#                </li>#}
+{#                <li class="poly-img" alt='bottom'></li>#}
+{#            </ul>#}
+            <div class="article">
+                <div id="about_3">
+                    <div class="tags">
+                        <span id="span12" {% if year==2014 %}class="selected"{% endif %}><a href="honor.html?pn=1&year=2014">2014</a></span>
+                        <span id="span13"{% if year==2013 %}class="selected"{% endif %}><a href="honor.html?pn=1&year=2013">2013</a></span>
+                        <span id="span14" {% if year==2012 %}class="selected"{% endif %} style="font-family: 微软雅黑; line-height: 41px;"><a href="honor.html?pn=1&year=2012">2012</a></span>
+                    </div>
+                    <div class="tagcontent">
+                        <div class="tagcontent-iner" style="display: block;">
+                            {% if year == '' and pn==1 %}
+                            <ul>
+
+                                <li class="">
+                                    {% if isMobile==false %}<div class="right">2014年8月</div>{% endif %}
+                                    <div class="left">
+                                        <div class="N_content">
+                                            {% if isMobile %}<h3>2014年8月</h3>{% endif %}
+                                            <p>江门保利大都会荣获最美城市综合体</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="">
+                                    {% if isMobile==false %}<div class="right">2014年6月</div>{% endif %}
+                                    <div class="left">
+                                        <div class="N_content">
+                                            {% if isMobile %}<h3>2014年6月</h3>{% endif %}
+                                            <p>江门保利大都会荣获省优工程</p><p><br></p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="">
+                                    {% if isMobile==false %}<div class="right">2014年5月</div>{% endif %}
+                                    <div class="left">
+                                        <div class="N_content">
+                                            {% if isMobile %}<h3>2014年5月</h3>{% endif %}
+                                            <p>江门保利大都会荣获最具品质楼盘<br></p><p>江门保利大都会荣获最受欢迎房地产品牌</p><p>江门保利大都会荣获最具人气楼盘奖</p><p>湛江保利原点广场荣获2014年度湛江最具潜力楼盘</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="">
+                                    {% if isMobile==false %}<div class="right">2013年5月</div>{% endif %}
+                                    <div class="left">
+                                        <div class="N_content">
+                                            {% if isMobile %}<h3>2013年5月</h3>{% endif %}
+                                            <p>保利（海陵岛）房地产开发有限公司荣获阳江市旅游协会会长单位<br></p><p>保利华南实业有限公司荣获年度品牌企业</p><p>保利华南实业有限公司荣获最具影响力地产品牌</p><p>保利中央公馆荣获最畅销品质大盘</p><p>保利中央公馆荣获2013佛山最具潜力好楼盘</p><p>保利中央公馆荣获2013年珠三角最值得期待楼盘</p><p>保利紫山荣获2013年度佛山地区最佳观景别墅</p><p>保利紫山荣获最佳美誉度品牌楼盘</p><p>保利紫山荣获金牌宜居生态楼盘"</p><p>保利东湾荣获2013年度佛山地区城市升级贡献大奖</p><p>保利东湾荣获金牌城市综合体</p><p>保利东湾荣获珠三角最畅销综合物业</p><p>保利东湾荣获佛山2013年度首个销售百亿综合体</p><p>保利中心荣获最具投资价值商用物业</p><p>清远保利花园荣获最佳金牌户型奖</p><p>清远保利花园荣获最佳城市贡献奖</p><p>清远保利花园荣获最佳人居社区奖"</p><p>保利中环荣获年度最畅销楼盘</p><p>保利中环荣获最具投资价值项目/金牌户型</p><p>保利中环荣获佛山最具有升值潜力楼盘</p><p>保利中环荣获顺德最具投资价值综合物业</p><p>保利中环荣获佛山市城市中轴地标奖</p><p>保利银滩荣获珠三角最具投资价值旅游度假地产</p><p>保利银滩荣获金牌宜居生态楼盘</p><p>保利银滩荣获十佳园林式小区</p><p>佛山市保利鑫诚房地产开发有限公司荣获佛山市房屋市政工程安全文明生产示范工地</p><p>佛山市保利鑫诚房地产开发有限公司荣获广东省房屋市政工程安全生产文明示范工地</p><p>保利东嘉花园荣获2013年度顺德区物业管理示范住宅小区</p><p><br></p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="">
+                                    {% if isMobile==false %}<div class="right">2013年12月</div>{% endif %}
+                                    <div class="left">
+                                        <div class="N_content">
+                                            {% if isMobile %}<h3>2013年12月</h3>{% endif %}
+
+                                            <p>江门保利宏信房地产开发有限公司荣获江门市“纳税100强”<br></p><p>江门保利宏信房地产开发有限公司荣获江门市“纳税100强”<br></p><p>保利（海陵岛）房地产开发有限公司荣获2013年度阳江房地产卓越贡献企业</p><p>保利西雅图荣获2013年度佛山营销推广奖</p><p>保利西雅图荣获珠三角最佳户型楼盘</p><p>保利西雅图荣获2014置业首选楼盘</p><p>保利中央公馆荣获2013年度佛山地区最畅销楼盘</p><p>保利中央公馆在中国珠三角房地产风向标评选中，荣获珠三角2014年最值得期待楼盘</p><p>保利中央公馆荣获2013年佛山金牌地产评鉴金牌户型</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="">
+                                    {% if isMobile==false %}<div class="right">2013年6月</div>{% endif %}
+                                    <div class="left">
+                                        <div class="N_content">
+                                            {% if isMobile %}<h3>2013年6月</h3>{% endif %}
+                                            <p>中宇花园一期中宇花园荣获2013年（下半年度）江门市示范工地</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="">
+                                    {% if isMobile==false %}<div class="right">2013年11月</div>{% endif %}
+                                    <div class="left">
+                                        <div class="N_content">
+                                            {% if isMobile %}<h3>2013年11月</h3>{% endif %}
+
+                                            <p>江门保利大都会项目荣获江门市2013年最佳城市综合体</p><p>中宇花园一期中宇花园荣获2013年（下半年度）江门市示范工地</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                                {% elif year=='' and pn==2 %}
+                                <ul>
+
+                                    <li class="">
+                                        {% if isMobile==false %}<div class="right">2012年8月</div>{% endif %}
+                                        <div class="left">
+                                            <div class="N_content">
+                                                {% if isMobile %}<h3>2012年8月</h3>{% endif %}
+
+                                                <p>保利银滩荣获2012中国人居生态华宅奖<br></p><p><br></p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="">
+                                        {% if isMobile==false %}<div class="right">2012年9月</div>{% endif %}
+                                        <div class="left">
+                                            <div class="N_content">
+                                                {% if isMobile %}<h3>2012年9月</h3>{% endif %}
+
+                                                <p>保利东湾荣获2012年佛山市房屋建筑工程样板引路示范工地</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="">
+                                        {% if isMobile==false %}<div class="right">2012年11月</div>{% endif %}
+                                        <div class="left">
+                                            <div class="N_content">
+                                                {% if isMobile %}<h3>2012年11月</h3>{% endif %}
+
+                                                <p>保利东湖林语荣获最佳生态人居品牌楼盘</p><p>保利银滩荣获最具投资价值楼盘 </p><p>保利银滩荣获最受关注楼盘</p><p>保利中央公馆荣获佛山最受市民喜爱人居地标</p><p>保利东湾荣获2012年佛山城市地标（人居）十二景</p><p>保利东湾荣获佛山最具影响力城市地标</p><p>保利东湾荣获佛山最畅销品牌楼盘</p><p>保利拉斐荣获最佳气质城央美宅</p><p>保利外滩荣获最佳生态人居品牌楼盘</p><p>保利中环荣获佛山最具综合实力品牌楼盘</p><p>保利紫山荣获最值得期待的楼盘</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="">
+                                        {% if isMobile==false %}<div class="right">2012年12月</div>{% endif %}
+                                        <div class="left">
+                                            <div class="N_content">
+                                                {% if isMobile %}<h3>2012年12月</h3>{% endif %}
+
+                                                <p>保利华南营销部荣获年度营销团队</p><p>保利华南实业有限公司荣获年度品牌企业 </p><p>保利地产荣获最有价值地产品牌</p><p>保利中央公馆荣获年度最具投资价值项目</p><p>保利中央公馆荣获2012年度互联网楼盘搜索金奖</p><p>保利中央公馆荣获2012年佛山最具潜力好楼盘</p><p>保利东湾荣获珠三角最具品牌价值楼盘</p><p>保利拉斐荣获最佳社区环境</p><p>保利中环荣获2012年最具综合价值地标奖</p><p>保利紫山荣获佛山最受市民喜爱人居地标</p><p>保利物业管理有限公司顺德分公司荣获德区物业管理示范小区</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                {% elif year==2014 %}
+                                <ul>
+
+                                    <li class="">
+                                        {% if isMobile==false %}<div class="right">2014年8月</div>{% endif %}
+                                        <div class="left">
+                                            <div class="N_content">
+                                                {% if isMobile %}<h3>2014年8月</h3>{% endif %}
+
+                                                <p>江门保利大都会荣获最美城市综合体</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="">
+                                        {% if isMobile==false %}<div class="right">2014年6月</div>{% endif %}
+                                        <div class="left">
+                                            <div class="N_content">
+                                                {% if isMobile %}<h3>2014年6月</h3>{% endif %}
+
+                                                <p>江门保利大都会荣获省优工程</p><p><br></p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="">
+                                        {% if isMobile==false %}<div class="right">2014年5月</div>{% endif %}
+                                        <div class="left">
+                                            <div class="N_content">
+                                                {% if isMobile %}<h3>2014年5月</h3>{% endif %}
+
+                                                <p>江门保利大都会荣获最具品质楼盘<br></p><p>江门保利大都会荣获最受欢迎房地产品牌</p><p>江门保利大都会荣获最具人气楼盘奖</p><p>湛江保利原点广场荣获2014年度湛江最具潜力楼盘</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                {% elif year==2013 %}
+                                <ul>
+
+                                    <li class="">
+                                        {% if isMobile==false %}<div class="right">2013年5月</div>{% endif %}
+                                        <div class="left">
+                                            <div class="N_content">
+                                                {% if isMobile %}<h3>2013年5月</h3>{% endif %}
+
+                                                <p>保利（海陵岛）房地产开发有限公司荣获阳江市旅游协会会长单位<br></p><p>保利华南实业有限公司荣获年度品牌企业</p><p>保利华南实业有限公司荣获最具影响力地产品牌</p><p>保利中央公馆荣获最畅销品质大盘</p><p>保利中央公馆荣获2013佛山最具潜力好楼盘</p><p>保利中央公馆荣获2013年珠三角最值得期待楼盘</p><p>保利紫山荣获2013年度佛山地区最佳观景别墅</p><p>保利紫山荣获最佳美誉度品牌楼盘</p><p>保利紫山荣获金牌宜居生态楼盘"</p><p>保利东湾荣获2013年度佛山地区城市升级贡献大奖</p><p>保利东湾荣获金牌城市综合体</p><p>保利东湾荣获珠三角最畅销综合物业</p><p>保利东湾荣获佛山2013年度首个销售百亿综合体</p><p>保利中心荣获最具投资价值商用物业</p><p>清远保利花园荣获最佳金牌户型奖</p><p>清远保利花园荣获最佳城市贡献奖</p><p>清远保利花园荣获最佳人居社区奖"</p><p>保利中环荣获年度最畅销楼盘</p><p>保利中环荣获最具投资价值项目/金牌户型</p><p>保利中环荣获佛山最具有升值潜力楼盘</p><p>保利中环荣获顺德最具投资价值综合物业</p><p>保利中环荣获佛山市城市中轴地标奖</p><p>保利银滩荣获珠三角最具投资价值旅游度假地产</p><p>保利银滩荣获金牌宜居生态楼盘</p><p>保利银滩荣获十佳园林式小区</p><p>佛山市保利鑫诚房地产开发有限公司荣获佛山市房屋市政工程安全文明生产示范工地</p><p>佛山市保利鑫诚房地产开发有限公司荣获广东省房屋市政工程安全生产文明示范工地</p><p>保利东嘉花园荣获2013年度顺德区物业管理示范住宅小区</p><p><br></p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="">
+                                        {% if isMobile==false %}<div class="right">2013年12月</div>{% endif %}
+                                        <div class="left">
+                                            <div class="N_content">
+                                                {% if isMobile %}<h3>2013年12月</h3>{% endif %}
+
+                                                <p>江门保利宏信房地产开发有限公司荣获江门市“纳税100强”<br></p><p>江门保利宏信房地产开发有限公司荣获江门市“纳税100强”<br></p><p>保利（海陵岛）房地产开发有限公司荣获2013年度阳江房地产卓越贡献企业</p><p>保利西雅图荣获2013年度佛山营销推广奖</p><p>保利西雅图荣获珠三角最佳户型楼盘</p><p>保利西雅图荣获2014置业首选楼盘</p><p>保利中央公馆荣获2013年度佛山地区最畅销楼盘</p><p>保利中央公馆在中国珠三角房地产风向标评选中，荣获珠三角2014年最值得期待楼盘</p><p>保利中央公馆荣获2013年佛山金牌地产评鉴金牌户型</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="">
+                                        {% if isMobile==false %}<div class="right">2013年6月</div>{% endif %}
+                                        <div class="left">
+                                            <div class="N_content">
+                                                {% if isMobile %}<h3>2013年6月</h3>{% endif %}
+
+                                                <p>中宇花园一期中宇花园荣获2013年（下半年度）江门市示范工地</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="">
+                                        {% if isMobile==false %}<div class="right">2013年11月</div>{% endif %}
+                                        <div class="left">
+                                            <div class="N_content">
+                                                {% if isMobile %}<h3>2013年11月</h3>{% endif %}
+
+                                                <p>江门保利大都会项目荣获江门市2013年最佳城市综合体</p><p>中宇花园一期中宇花园荣获2013年（下半年度）江门市示范工地</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                {% elif year==2012 %}
+                                <ul>
+
+                                    <li class="">
+                                        {% if isMobile==false %}<div class="right">2012年8月</div>{% endif %}
+                                        <div class="left">
+                                            <div class="N_content">
+                                                {% if isMobile %}<h3>2012年8月</h3>{% endif %}
+
+                                                <p>保利银滩荣获2012中国人居生态华宅奖<br></p><p><br></p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="">
+                                        {% if isMobile==false %}<div class="right">2012年9月</div>{% endif %}
+                                        <div class="left">
+                                            <div class="N_content">
+                                                {% if isMobile %}<h3>2012年9月</h3>{% endif %}
+
+                                                <p>保利东湾荣获2012年佛山市房屋建筑工程样板引路示范工地</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="">
+                                        {% if isMobile==false %}<div class="right">2012年11月</div>{% endif %}
+                                        <div class="left">
+                                            <div class="N_content">
+                                                {% if isMobile %}<h3>2012年11月</h3>{% endif %}
+
+                                                <p>保利东湖林语荣获最佳生态人居品牌楼盘</p><p>保利银滩荣获最具投资价值楼盘 </p><p>保利银滩荣获最受关注楼盘</p><p>保利中央公馆荣获佛山最受市民喜爱人居地标</p><p>保利东湾荣获2012年佛山城市地标（人居）十二景</p><p>保利东湾荣获佛山最具影响力城市地标</p><p>保利东湾荣获佛山最畅销品牌楼盘</p><p>保利拉斐荣获最佳气质城央美宅</p><p>保利外滩荣获最佳生态人居品牌楼盘</p><p>保利中环荣获佛山最具综合实力品牌楼盘</p><p>保利紫山荣获最值得期待的楼盘</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="">
+                                        {% if isMobile==false %}<div class="right">2012年12月</div>{% endif %}
+                                        <div class="left">
+                                            <div class="N_content">
+                                                {% if isMobile %}<h3>2012年12月</h3>{% endif %}
+
+                                                <p>保利华南营销部荣获年度营销团队</p><p>保利华南实业有限公司荣获年度品牌企业 </p><p>保利地产荣获最有价值地产品牌</p><p>保利中央公馆荣获年度最具投资价值项目</p><p>保利中央公馆荣获2012年度互联网楼盘搜索金奖</p><p>保利中央公馆荣获2012年佛山最具潜力好楼盘</p><p>保利东湾荣获珠三角最具品牌价值楼盘</p><p>保利拉斐荣获最佳社区环境</p><p>保利中环荣获2012年最具综合价值地标奖</p><p>保利紫山荣获佛山最受市民喜爱人居地标</p><p>保利物业管理有限公司顺德分公司荣获德区物业管理示范小区</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                {% else %}
+
+                                {% endif %}
+                        </div>
+                    </div>
+                {% if year=='' %}
+                    <div class="pagination-wrap">
+                        <ul class="pagination">
+                            <li> <a href="honor.html?pn=1" aria-label="Previous"> <span aria-hidden="true">«</span> </a> </li>
+                            <li {% if pn==1 %}class="active"{% endif %}><a href="honor.html?pn=1" >1</a></li>
+                            <li {% if pn==2 %}class="active"{% endif %}><a href="honor.html?pn=2" >2</a></li>
+                            <li><a href="honor.html?pn=2" aria-label="Next"> <span aria-hidden="true">»</span> </a> </li>
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% else %}
+
+    {% endif %}
+</div>
+{% endblock %}
+{% block script %}
+<script src='js/lib/jquery.min.js'></script>
+<script src='js/lib/jquery.slides.js'></script>
+<script src='js/index/index.js'></script>
+{% endblock script %}

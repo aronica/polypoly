@@ -26,14 +26,13 @@
             {% endfor %}
         </div>
     </div>
+    {% if isMobile==false %}
     <div class="layout-container">
         <div class="layout-wrap-right">
             <div class="layout-wrap-dec">
                 <div class="layout-title">
                     <span class="icon icon-sug"></span>
-                    <span class="layout-title-text">
-                                        推荐项目
-                                    </span>
+                    <span class="layout-title-text">推荐项目</span>
                 </div>
             </div>
             <div class="layout" id='layout-slides'>
@@ -100,12 +99,95 @@
                         </a>
                     {% endif %}
                 {% endfor %}
-
             </div>
-
         </div>
-
     </div>
+    {% else %}
+    <div class="layout-container">
+        <div class="layout-wrap-right">
+            <div class="layout-wrap-dec">
+                <div class="layout-title">
+                    <span class="layout-title-right">90W_(A)B</span>
+                    <span class="icon icon-rect"></span>
+                    <span class="layout-title-text">
+                        经典户型
+                    </span>
+                </div>
+            </div>
+            <div class="layout" id='layout-slides-left'>
+                {% for item in data.bottom %}
+                    {% if item.type == 'ad' %}
+                        <a href="{= item.link =}">
+                            <img class="banner-img" src="img/util/house_slide.jpg" data-link="{= item.link =}">
+
+                            <div class="layout-wrap-dec-bottom">
+                                <div class="layout-title">
+                            <span class="layout-title-text">
+                                90W_(A)B
+                            </span>
+                                </div>
+                            </div>
+                        </a>
+                    {% elif item.type == 'structure' %}
+                        <a href="/comment.html?structure_id={= item.structure_id =}">
+                            <img class="banner-img" src="img/util/house_slide.jpg" structure-id="{= item.structure_id =}">
+                            <div class="layout-wrap-dec-bottom">
+                                <div class="layout-title">
+                            <span class="layout-title-text">
+                                90W_(A)B
+                            </span>
+                                </div>
+                            </div>
+                        </a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="layout-container">
+        <div class="layout-wrap-right">
+            <div class="layout-wrap-dec">
+                <div class="layout-title">
+                    <span class="layout-title-right">
+                        <span class="project-name">保利云山</span>
+                        <span class="project-address">/ 广州西 别墅区</span>
+                    </span>
+                    <span class="icon icon-sug"></span>
+                    <span class="layout-title-text">推荐项目</span>
+                </div>
+            </div>
+            <div class="layout" id='layout-slides'>
+                {% for item in data.bottom %}
+                    {% if item.type == 'ad' %}
+                        <a href="{= item.link =}">
+                            <img class="banner-img" src="img/index/banner/bottom/index_br_2.jpg" data-link="{= item.link =}">
+                            <div class="layout-wrap-dec-bottom">
+                                <div class="layout-title">
+                                <span class="layout-title-text">
+                                    90W_(A)B
+                                </span>
+                                </div>
+                            </div>
+                        </a>
+                    {% elif item.type == 'structure' %}
+                        <a href="/comment.html?structure_id={= item.structure_id =}">
+                            <img class="banner-img" src="img/index/banner/bottom/index_br_2.jpg" structure-id="{= item.structure_id =}">
+                            <div class="layout-wrap-dec-bottom">
+                                <div class="layout-title">
+                                <span class="layout-title-text">
+                                    90W_(A)B
+                                </span>
+                                </div>
+                            </div>
+                        </a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+
+    {% endif %}
 </div>
 {% endblock %}
 {% block script %}

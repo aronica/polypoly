@@ -7,7 +7,8 @@
         autoplay:4000,
         thumbFit:true,
         thumbCrop:true,
-        thumbMargin:1
+        thumbMargin:1,
+        height: 0.9
     })
     Galleria.run('.galleria');
     // $(".galleria-container").css("height","440px");

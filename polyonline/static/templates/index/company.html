@@ -16,7 +16,13 @@
     <div class="banner-img"><img src="img/index/poly.png" alt=""></div>
     {% import 'macro/macro.html' as macro %}
     {= macro.barlist(titles) =}
-    {= macro.submenu(type) =}
+    <div class="about-submenu">
+        <div><a href="about.html" class="text">公司简介</a></div>
+        <div class=""><a href="president.html" class="text">领导致辞</a></div>
+        <div class=""><a href="journey.html" class="text">发展历程</a></div>
+        <div class=""><a href="honor.html" class="text">企业荣誉</a></div>
+        <div class=""><a href="company.html" class="text active">保利集团</a></div>
+    </div>
 
     <div class="about-poly">
         <ul class="about-img">
@@ -30,9 +36,11 @@
             <p>29年来，集团公司已形成以军民品贸易、房地产开发、文化艺术经营、矿产资源领域投资开发民爆器材生产及爆破服务为主业的“五业并举、多元发展”格局。截止2012年底，集团公司合并总资产3829亿元。</p>
             <p>集团公司下辖保利科技有限公司、保利南方集团有限公司、保利（香港）控股有限公司、保利文化集团股份有限公司、保利能源控股有限公司、保利化工控股有限公司、保利财务有限公司、北京新保利大厦房地产开发有限公司等专业子公司，旗下拥有保利房地产（集团）股份有限公司（股票代码：S.H.600048）与保利置业集团有限公司（股票代码：H.K.00119）两家境内外上市公司。企业及项目遍及国内的北京、天津、上海、重庆、广州、深圳、香港等60多个城市和地区，在十几个国家设有子公司和办事处。 </p>
         </div>
+        {% if isMobie==false %}
         <div class="sig sig-link">
             <a target="new" href="http://www.poly.com.cn"><img src="img/util/link.png"></a>
         </div>
+        {% endif %}
     </div>
 </div>
 {% endblock %}

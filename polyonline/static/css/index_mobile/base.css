@@ -24,6 +24,7 @@
     background-repeat: no-repeat;
     background-position: -19px -5px;
     float: left;
+    margin-left: 12px;
 }
 
 .header-title {
@@ -35,7 +36,7 @@
 
 .header-nav-container {
     text-align: center;
-    width: calc(100% - 232px);
+    width: calc(100% - 244px);
     height: 75px;
     float: right;
 }

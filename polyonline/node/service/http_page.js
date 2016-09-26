@@ -197,7 +197,7 @@ module.exports = {
     yield next
     this.body = nj.render('index/company.html', {
       isMobile: this.isMobile,
-      type: this.request.query.type || 4,
+      type: this.request.query.type || 1,
       titles:'保利集团'
     })
   },
@@ -205,10 +205,34 @@ module.exports = {
     yield next
     this.body = nj.render('index/platform.html', {
       isMobile: this.isMobile,
-      type: this.request.query.type || 4,
+      type: this.request.query.type || 1,
       titles:'保利云产品平台',
       menu:'关于我们'
     })
   },
+  honor: function* (next) {
+    yield next
+    this.body = nj.render('index/honor.html', {
+      isMobile: this.isMobile,
+      type: this.request.query.type || 1,
+      titles:'企业荣誉',
+      menu:'关于我们',
+      pn: this.request.query.pn || 1,
+      year: this.request.query.year ||"",
+      total:2
+    })
+  },
+  journey: function* (next) {
+    yield next
+    this.body = nj.render('index/journey.html', {
+      isMobile: this.isMobile,
+      type: this.request.query.type || 1,
+      titles:'发展历程',
+      menu:'关于我们',
+      pn: this.request.query.pn || 1,
+      year: this.request.query.year ||"",
+      total:2
+    })
+  }
 }
 

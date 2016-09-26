@@ -199,10 +199,15 @@ textarea {
     line-height: 24px;
 }
 
+
 .personal-info li > input {
-    !width: 400px;
-    margin: 10px 0 10px 10px;
+    /*width: 409px;*/
+    margin: 10px 0 10px 0px;
     line-height: 24px;
+    /*-webkit-border-radius:2px;*/
+    /*-moz-border-radius:2px;*/
+    /*border-radius:2px;*/
+    /*background-color: #f0f0f0;*/
 }
 
 .personal-info select {
@@ -222,4 +227,50 @@ textarea {
     border-radius: 4px;
     color: #eee;
     cursor: pointer;
+}
+
+.special-red{
+    font-size: 26px;
+    color: #f00549;
+}
+
+.cmt-userinfo-form li{
+    line-height: 30px;
+}
+
+.cmt-userinfo-form li span{
+    display: inline-block;
+    width: 100px;
+    font-size: 14px;
+}
+
+.share-icon{
+    height: 77px;
+    width: 77px;
+    display: inline-block;
+    background:url("../../img/util/share.png") no-repeat;
+}
+.icon-weixin{
+    background-position: -45px -38px;
+}
+
+.icon-pengyouquan{
+    background-position: -265px -38px;
+}
+
+.share-container{
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+.sharebox{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.share-alert-info{
+    margin: 60px 0 0 30px;
+    line-height: 32px;
+    font-size: 16px;
 }

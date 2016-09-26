@@ -12,6 +12,7 @@
         var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
       })();
+        var isMobile = "{= isMobile =}";
     </script>
     {% if isMobile %}
     <meta content="yes" name="apple-mobile-web-app-capable">
@@ -47,7 +48,9 @@
                     {% else %}
                     <li class="header-navlist"><a href="/personal.html">登录</a></li>
                     {% endif %}
-                    <li class="header-navlist"><a class="jiathis_button_weixin"><div class="header-loginlist" alt="微信"></div></a>
+                    <li class="header-navlist">
+                        <a class="jiathis_button_weixin"><div class="header-loginlist" alt="微信"></div></a>
+{#                        <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>#}
                     </li>
                 </ul>
             </div>

@@ -7,7 +7,7 @@ body {
     width: 100%;
     margin: 0 auto;
     background-color: white;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 .banner-img {
@@ -38,20 +38,36 @@ body {
     float: left;
 }
 
+/*.banner .slidesjs-pagination {*/
+    /*list-style: none;*/
+    /*margin: -92px 0 0 120px;*/
+    /*position: relative;*/
+    /*z-index: 10;*/
+    /*height: 27px;*/
+/*}*/
 .banner .slidesjs-pagination {
     list-style: none;
-    margin: -92px 0 0 120px;
+    /* margin: -92px 0 0 120px; */
     position: relative;
     z-index: 10;
-    height: 27px;
+    /* height: 27px; */
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+    right: 10px;
+    bottom: 20px;
 }
 
 .layout .slidesjs-pagination {
     list-style: none;
-    margin: -92px 0 0 120px;
+    /*margin: -92px 0 0 120px;*/
     position: relative;
     z-index: 10;
-    height: 27px;
+    /*height: 27px;*/
+    display: inline-block;
+    float: right;
+    right: 10px;
+    bottom: 20px;
 }
 
 .slidesjs-pagination li {
@@ -61,9 +77,9 @@ body {
 
 .slidesjs-pagination li a {
     display: block;
-    width: 50px;
+    width: 20px;
     height: 0;
-    padding-top: 10px;
+    padding-top: 6px;
     background-color: rgba(100, 100, 100, 0.7);
     float: left;
     overflow: hidden;
@@ -90,4 +106,89 @@ body {
 
 .footer-container {
     margin-top: 0;
+}
+
+/**add new**/
+
+.layout-container{
+    overflow: hidden;
+}
+
+
+.layout .layout-wrap-dec{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.icon{
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+}
+
+.icon-sug{
+    background: url("../../img/util/icon-sug.png");
+}
+
+.icon-rect{
+    background: url("../../img/util/icon-rect.png");
+
+}
+
+.layout-title{
+    line-height: 22px;
+}
+
+.layout-title-text{
+    line-height: 22px;
+    height: 22px;
+    font-size: 14px;
+    color: #1e46a1;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.layout .layout-wrap-dec-bottom{
+    position: absolute;
+    left: 0px;
+    bottom: -3px;
+}
+
+.layout-wrap-right .layout .layout-wrap-dec-bottom{
+    position: absolute;
+    left: 0px;
+    bottom: -40px;
+}
+
+
+
+.layout-wrap-right .layout{
+    margin-top: 10px;
+    /*margin-bottom: 10px;*/
+}
+
+.layout-wrap-dec{
+    margin: 6px 12px 12px 18px;
+    height: 22px;
+}
+
+.layout-title{
+    height: 22px;
+}
+
+.layout-title-right{
+    height:22px;
+    line-height:22px;
+    float:right;
+    padding-right: 12px;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.layout-title-right .project-name{
+}
+
+.layout-title-right .project-address{
+    color: #d2d2b4;
 }

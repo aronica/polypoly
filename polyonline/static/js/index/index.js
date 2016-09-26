@@ -6,6 +6,7 @@
  * @description:
  **/
 ;(function() {
+  var width
   $('#banner-slides').slidesjs({
     navigation: {
       active: false
@@ -14,7 +15,11 @@
       active: true,
       effect: 'slide'
     }
+    ,
+    width:$(document).width(),
+    height:$(document).width()*0.4
   })
+
 
   $('#layout-slides-left').slidesjs({
     navigation: {
@@ -24,10 +29,17 @@
       active: true,
       effect: 'slide'
     },
-    width:337,
-    height:303
+    width:$(document).width(),
+    height:$(document).width()
   })
 
+  let width1 = 633;
+  let height1 = 253;
+
+if(isMobile=="true") {
+  width1 = $(document).width();
+  height1 = width1 * 0.38;
+}
   $('#layout-slides').slidesjs({
     navigation: {
         active: false
@@ -36,7 +48,7 @@
         active: true,
         effect: 'slide'
     },
-    width: '633',
-    height: '293'
+    width: width1,
+    height: height1
   })
 })()

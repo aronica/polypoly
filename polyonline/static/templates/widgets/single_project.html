@@ -1,65 +1,117 @@
-            <li class="project-item">
+<li class="project-item">
 
-                <div class="project-item-container">
-                    <div class="project-item-left">
-                        <!--<div class="item-left-top"><img src="img/project/{=property.image[0]=}" alt=""></div>-->
-                        <ul class="item-left-bottom galleria">
-                            <li class="item-img"><img src="img/project/{=property.image[0]=}" alt=""></li>
-                            <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
-                            <li class="item-img"><img src="img/project/{=property.image[2]=}" alt=""></li>
-                            <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
-                            <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
-                            <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
-                            <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
-                            <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
-                        </ul>
-                    </div>
-                    <div class="project-item-right">
-                        <p class="project-item-title">{= property.name =}</p>
-                        <ul class="item-info-container">
-                            <li class="item-info">
-{#                                <div class="item-icon" alt="项目区位"></div>#}
-                                <p class="item-msg">项目区位：{= property.location =}<span class="item-gis"><a href="http://www.baidu.com"></a></span></p>
+    <div class="project-item-container">
+        {% if isMobile==false %}
+        <div class="project-item-left">
+            <ul class="item-left-bottom galleria">
+                <li class="item-img"><img src="img/project/{=property.image[0]=}" alt=""></li>
+                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
+                <li class="item-img"><img src="img/project/{=property.image[2]=}" alt=""></li>
+                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
+                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
+                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
+                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
+            </ul>
+        </div>
+        <div class="project-item-right">
+            <p class="project-item-title">{= property.name =}</p>
+            <ul class="item-info-container">
+                <li class="item-info">
+                    <p class="item-msg">项目区位：{= property.location =}<span class="item-gis"><a href="http://www.baidu.com"></a></span></p>
+                </li>
+                <li class="item-info">
+                    {% if property.open_time_from  and property.open_time_to %}
+                    <p class="item-msg">预计开盘：{= property.open_time_from =} － {= property.open_time_to =}</p>
+                    {% elif property.open_time_from %}
+                    <p class="item-msg">预计开盘：{= property.open_time_from =}</p>
+                    {% else %}
+                    <p class="item-msg">预计开盘：暂缺</p>
+                    {% endif %}
+                </li>
+                <li class="item-info">
+                    <p class="item-msg">产权年限：{= property.property_age =}</p>
+                </li>
+                <li class="item-info">
+                    <p class="item-msg">周边配套：</p>
+                    <ul class="surroundings-container">
+                        {% for surrounding in property.surrounding %}
+                        <li class="surroundings" alt="{= surrounding =}">{= surrounding =}</li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            </ul>
+            <div class="item-right-top">
+                <p class="item-title">项目概况</p>
+            </div>
+            <div class="item-subtitle">
+                {= property.description =}
+                {% if page=='list' %}<a href="project.html?property_id={= property.id =}" class="more-link">&gt;&gt;&gt;查看更多</a>{% endif %}
+            </div>
+            {% if page!='detail' %}
+            <div class="item-direction">
+                <a href="project.html?property_id={= property.id =}"><div class="project-button"></div></a>
+            </div>
+            {% endif %}
+        </div>
+        {% else %}
+        <h3 style="color: #1d49a5">{= property.name =}</h3>
+        <div class="project-item-left">
+            <ul class="item-left-bottom galleria">
+                <li class="item-img"><img src="img/project/{=property.image[0]=}" alt=""></li>
+                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
+                <li class="item-img"><img src="img/project/{=property.image[2]=}" alt=""></li>
+                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
+                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
+                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
+                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
+            </ul>
+        </div>
+        <div class="project-item-right">
+            <div class="item-right-top">
+                <p class="item-title">项目概况</p>
+            </div>
+            <div class="item-subtitle">
+                {= property.description =}
+                {% if page=='list' %}<a href="project.html?property_id={= property.id =}" class="more-link">&gt;&gt;&gt;查看更多</a>{% endif %}
+            </div>
+            <ul class="item-info-container">
+                <li class="item-info">
+                    <p class="item-msg">项目区位：{= property.location =}<span class="item-gis"><a href="http://www.baidu.com"></a></span></p>
+                </li>
+                <li class="item-info">
+                    {% if property.open_time_from  and property.open_time_to %}
+                        <p class="item-msg">预计开盘：{= property.open_time_from =} － {= property.open_time_to =}</p>
+                    {% elif property.open_time_from %}
+                        <p class="item-msg">预计开盘：{= property.open_time_from =}</p>
+                    {% else %}
+                        <p class="item-msg">预计开盘：暂缺</p>
+                    {% endif %}
+                </li>
+                <li class="item-info">
+                    <p class="item-msg">产权年限：{= property.property_age =}</p>
+                </li>
+                <li class="item-info">
+                    <p class="item-msg">周边配套：</p>
+                    <ul class="surroundings-container">
+                        {% for surrounding in property.surrounding %}
+                            <li class="surroundings" alt="{= surrounding =}">{= surrounding =}</li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                <li class="item-info">
+                    {% if page!='detail' %}
+                        <div class="app-item-direction">
+                            <a href="project.html?property_id={= property.id =}">
+                                我要体验产品
+                            </a>
+                        </div>
+                    {% endif %}
+                </li>
+            </ul>
 
-                            </li>
-                            <li class="item-info">
-{#                                <div class="item-icon" alt="预计开盘"></div>#}
-                                {% if property.open_time_from  and property.open_time_to %}
-                                <p class="item-msg">预计开盘：{= property.open_time_from =} － {= property.open_time_to =}</p>
-                                {% elif property.open_time_from %}
-                                <p class="item-msg">预计开盘：{= property.open_time_from =}</p>
-                                {% else %}
-                                <p class="item-msg">预计开盘：暂缺</p>
-                                {% endif %}
-                            </li>
-                            <li class="item-info">
-{#                                <div class="item-icon" alt="产权年限"></div>#}
-                                <p class="item-msg">产权年限：{= property.property_age =}</p>
-                            </li>
-                            <li class="item-info">
-{#                                <div class="item-icon" alt="周边配套"></div>#}
-                                <p class="item-msg">周边配套：</p>
-                                <ul class="surroundings-container">
-                                    {% for surrounding in property.surrounding %}
-                                    <li class="surroundings" alt="{= surrounding =}">{= surrounding =}</li>
-                                    {% endfor %}
-                                </ul>
-                            </li>
-                        </ul>
-                        <div class="item-right-top">
-{#                            <div class="item-icon" alt="项目概况"></div>#}
-                            <p class="item-title">项目概况</p>
-                        </div>
-                        <div class="item-subtitle">
-                            {= property.description =}
-                            {% if page=='list' %}<a href="project.html?property_id={= property.id =}" class="more-link">&gt;&gt;&gt;查看更多</a>{% endif %}
-                        </div>
-                        {% if page!='detail' %}
-                        <div class="item-direction">
-                            <a href="project.html?property_id={= property.id =}"><div class="project-button"></div></a>
-                        </div>
-                        {% endif %}
-                    </div>
-                </div>
-            </li>
+
+        </div>
+        {% endif %}
+    </div>
+</li>
 
