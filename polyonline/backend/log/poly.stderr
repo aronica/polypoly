@@ -1,15 +1,27 @@
-started with pid 5516
+started with pid 5942
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
+DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
+DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
+DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
+DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
@@ -35,227 +47,50 @@ DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:佛山
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:佛山
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:get connection from pool
-DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:佛山
 DEBUG:fafus-MacBook-Pro.local-polyonline-poly-1:cache connection

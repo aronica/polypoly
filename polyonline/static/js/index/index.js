@@ -6,7 +6,6 @@
  * @description:
  **/
 ;(function() {
-  var width
   $('#banner-slides').slidesjs({
     navigation: {
       active: false
@@ -33,8 +32,8 @@
     height:$(document).width()
   })
 
-  let width1 = 633;
-  let height1 = 253;
+  var width1 = 633;
+  var height1 = 253;
 
 if(isMobile=="true") {
   width1 = $(document).width();

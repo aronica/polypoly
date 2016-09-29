@@ -26,13 +26,13 @@ def load_property(filename):
     cursor.execute('set names utf8;')
     cursor.execute('set character set utf8;')
     cursor.execute('set character_set_connection=utf8;')
-    property_sql = "insert ignore into property (city, name, description, image, location, open_time_from , open_time_to, property_age, surrounding) values (%s, %s, %s, %s, %s, %s, %s, %s, %s)"
+    property_sql = "insert ignore into property (city, name, description, image, location, open_time_from , open_time_to, property_age, surrounding,isnew) values (%s, %s, %s, %s, %s, %s, %s, %s, %s,%s)"
     relationship_sql = "insert ignore into property_structure (property_id, structure_id) values (%s, %s)"
     id_sql = "select property.id, structure.id from property, structure where property.city = %s and property.name = %s and structure.name = %s"
     with open(filename) as fi:
         property_list = json.load(fi)
         for property_info in property_list:
-            city, name, description, location, open_time_from, open_time_to, property_age, surrounding, structure, image = None, None, None, None, None, None, None, [], [], []
+            city, name, description, location, open_time_from, open_time_to, property_age, surrounding, structure, image ,isnew= None, None, None, None, None, None, None, [], [], [],None
             city = property_info["city"].encode("utf8")
             name = property_info["name"].encode("utf8")
             description = property_info["description"].encode("utf8")
@@ -42,7 +42,8 @@ def load_property(filename):
             surrounding = json.dumps([u"医院", u"购物中心", u"学校"])
             structure = property_info.get("structure", [])
             image = json.dumps(property_info.get("image", []))
-            params = [city, name, description, image, location, open_time_from, open_time_to, property_age, surrounding]
+            isnew = property_info["isnew"].encode("utf8")
+            params = [city, name, description, image, location, open_time_from, open_time_to, property_age, surrounding,isnew]
             cursor.execute(property_sql, params)
             conn.commit()
             for s in structure:

@@ -1,6 +1,7 @@
 /* 导航栏样式 */
 .header-container {
     width: 100%;
+    background: url("../../img/util/lan.png") no-repeat;
     background-image: -webkit-linear-gradient(left, #1e46a1, #334195);
     background-image: -moz-linear-gradient(left, #1e46a1, #334195);
     background-image: -ms-linear-gradient(left, #1e46a1, #334195);
@@ -21,13 +22,14 @@
 }
 
 .header-logo {
-    height: 75px;
+    height: 42px;
     width: 320px;
-    background-image: url(../../img/index/icons.png);
-    background-size: 986.5px 304px;
+    background-image: url(../../img/index/logo2.png);
+    /*background-size: 986.5px 304px;*/
     background-repeat: no-repeat;
-    background-position: -23px 0;
+    /*background-position: -23px 0;*/
     float: left;
+    margin-top: 15px;
 }
 
 .header-title {
@@ -112,14 +114,18 @@
     display: -ms-flex;
     display: flex;
     background-color: #1e46a1;
+    overflow: hidden;
 }
 
 .footer-info-container {
+    float: left;
+    width: 365px;
     -webkit-flex: 1;
     -moz-flex: 1;
     -ms-flex: 1;
     flex: 1;
     margin-right: 20px;
+
 }
 
 .footer-info-container:nth-of-type(2) {

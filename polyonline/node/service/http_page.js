@@ -15,6 +15,7 @@ const login = require('../util/login')
 const dt = require('../util/datetime')
 
 
+
 // nunjucks settings
 const tplPath = require('path').resolve(config.templatePath)
 // nunjucks 和前端框架 vuejs 冲突，更改 nunjucks 的默认语法
@@ -28,10 +29,22 @@ let nj = nunjucks.configure(tplPath, {
   watch: true
 });
 
+
+nj.addFilter('exactAddress', function(str, count) {
+  if(str.endsWith("旁")){
+    return str.substring(0,str.indexOf("旁"))
+  }
+  return str
+});
+
 // handlers
 module.exports = {
   index: function *(next) {
     yield next
+    let quit = this.request.query.quit;
+    if(quit=="true"){
+      this.cookies.set('openid','')
+    }
     let banner = yield renderer.getBanner
 
     this.body = nj.render('index/index.html', {
@@ -58,9 +71,14 @@ module.exports = {
       if(item.location && item.location.indexOf("（")>0){
         item.location = item.location.substring(0,item.location.indexOf("（"))
       }
-      if(item.description && item.description.length>250){
-        item.description = item.description.substring(0,250)
+      if(item.isnew==1&&item.description && item.description.length>260){
+        item.description = item.description.substring(0,260)
         item.desc_more = true;
+      }else if(item.isnew==0&&item.description && item.description.length>380){
+        item.description = item.description.substring(0,380)
+        item.desc_more = true;
+      }else{
+        item.desc_more=false;
       }
     }
     this.body = nj.render('index/projects.html', {

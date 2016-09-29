@@ -2,12 +2,14 @@ html,
 body {
     background-color: #fff;
     word-spacing: 8px;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
 }
 p{
     line-height:22px;
     font-size: 12px;
-    text-indent: 2em;
+    /*text-indent: 2em;*/
+    text-align: justify;
+    text-justify: distribute;
 }
 .content {
     width: 100%;

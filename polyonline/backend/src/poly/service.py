@@ -60,11 +60,11 @@ class PolyService(AsyncService):
         cursor = conn.cursor()
         logging.debug(city)
         if city:
-            sql = "select id, name, city, image, description, location, open_time_from, open_time_to, property_age, surrounding from property where city = %s and shown = 1 order by open_time_from"
+            sql = "select id, name, city, image, description, location, open_time_from, open_time_to, property_age, surrounding,isnew from property where city = %s and shown = 1 order by isnew desc,open_time_from desc"
             params = (city, )
             cursor.execute(sql, params)
         else:
-            sql = "select id, name, city, image, description, location, open_time_from, open_time_to, property_age, surrounding from property where shown = 1 order by open_time_from"
+            sql = "select id, name, city, image, description, location, open_time_from, open_time_to, property_age, surrounding,isnew from property where shown = 1 order by isnew desc,open_time_from desc"
             cursor.execute(sql)
         for item in cursor.fetchall():
             _property = PolyProperty()
@@ -78,6 +78,7 @@ class PolyService(AsyncService):
             _property.open_time_to = item[7]
             _property.property_age = item[8]
             _property.surrounding = json.loads(item[9])
+            _property.isnew=item[10]
             res.properties.append(_property)
         conn.close()
         return res
@@ -87,7 +88,7 @@ class PolyService(AsyncService):
             return None
         conn = self.conn_pool.connect()
         cursor = conn.cursor()
-        sql = "select name, city, image, description, location, open_time_from, open_time_to, property_age, surrounding from property where id = %s"
+        sql = "select name, city, image, description, location, open_time_from, open_time_to, property_age, surrounding,isnew from property where id = %s"
         params = [property_id]
         cursor.execute(sql, params)
         assert cursor.rowcount == 1
@@ -103,6 +104,7 @@ class PolyService(AsyncService):
         _property.open_time_to = item[6]
         _property.property_age = item[7]
         _property.surrounding = json.loads(item[8])
+        _property.isnew = item[9]
         conn.close()
         return _property
 

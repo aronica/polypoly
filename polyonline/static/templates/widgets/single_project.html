@@ -4,50 +4,52 @@
         {% if isMobile==false %}
         <div class="project-item-left">
             <ul class="item-left-bottom galleria">
-                <li class="item-img"><img src="img/project/{=property.image[0]=}" alt=""></li>
-                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
-                <li class="item-img"><img src="img/project/{=property.image[2]=}" alt=""></li>
-                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
-                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
-                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
-                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
+                {% for img in property.image %}
+                <li class="item-img"><img src="img/project/{=img=}" alt=""></li>
+{#                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>#}
+{#                <li class="item-img"><img src="img/project/{=property.image[2]=}" alt=""></li>#}
+                {% endfor %}
             </ul>
         </div>
         <div class="project-item-right">
             <p class="project-item-title">{= property.name =}</p>
             <ul class="item-info-container">
                 <li class="item-info">
-                    <p class="item-msg">项目区位：{= property.location =}<span class="item-gis"><a href="http://www.baidu.com"></a></span></p>
+                    <p class="item-msg">项目区位：{= property.location =}<a href="http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D{= property.location|exactAddress =}"><span class="item-gis"></span></a></p>
                 </li>
                 <li class="item-info">
                     {% if property.open_time_from  and property.open_time_to %}
                     <p class="item-msg">预计开盘：{= property.open_time_from =} － {= property.open_time_to =}</p>
                     {% elif property.open_time_from %}
                     <p class="item-msg">预计开盘：{= property.open_time_from =}</p>
+                    {% elif isnew == 0 %}
+                    <p class="item-msg">预计开盘：项目已结束</p>
                     {% else %}
-                    <p class="item-msg">预计开盘：暂缺</p>
+                        <p class="item-msg">预计开盘：待定</p>
                     {% endif %}
                 </li>
                 <li class="item-info">
                     <p class="item-msg">产权年限：{= property.property_age =}</p>
                 </li>
+                {% if property.isnew==1 %}
                 <li class="item-info">
                     <p class="item-msg">周边配套：</p>
                     <ul class="surroundings-container">
                         {% for surrounding in property.surrounding %}
-                        <li class="surroundings" alt="{= surrounding =}">{= surrounding =}</li>
+                        <li class="surroundings" alt="{= surrounding =}"><a href="http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D{= property.location|exactAddress =}附近{= surrounding|exactAddress =}">{= surrounding =}</a></li>
                         {% endfor %}
                     </ul>
                 </li>
+                {% endif %}
             </ul>
             <div class="item-right-top">
                 <p class="item-title">项目概况</p>
             </div>
             <div class="item-subtitle">
                 {= property.description =}
-                {% if page=='list' %}<a href="project.html?property_id={= property.id =}" class="more-link">&gt;&gt;&gt;查看更多</a>{% endif %}
+                {% if page=='list' and property.desc_more %}<a href="project.html?property_id={= property.id =}" class="more-link">&gt;&gt;&gt;查看更多</a>{% endif %}
             </div>
-            {% if page!='detail' %}
+            {% if page!='detail' and property.isnew==1 %}
             <div class="item-direction">
                 <a href="project.html?property_id={= property.id =}"><div class="project-button"></div></a>
             </div>
@@ -57,13 +59,9 @@
         <h3 style="color: #1d49a5">{= property.name =}</h3>
         <div class="project-item-left">
             <ul class="item-left-bottom galleria">
-                <li class="item-img"><img src="img/project/{=property.image[0]=}" alt=""></li>
-                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
-                <li class="item-img"><img src="img/project/{=property.image[2]=}" alt=""></li>
-                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
-                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
-                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
-                <li class="item-img"><img src="img/project/{=property.image[1]=}" alt=""></li>
+                {% for img in property.image %}
+                <li class="item-img"><img src="img/project/{=img=}" alt=""></li>
+                {% endfor %}
             </ul>
         </div>
         <div class="project-item-right">
@@ -76,28 +74,33 @@
             </div>
             <ul class="item-info-container">
                 <li class="item-info">
-                    <p class="item-msg">项目区位：{= property.location =}<span class="item-gis"><a href="http://www.baidu.com"></a></span></p>
+                    <p class="item-msg">项目区位：{= property.location =}<a href="http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D{= property.location|exactAddress =}"><span class="item-gis"></span></a></p>
                 </li>
                 <li class="item-info">
                     {% if property.open_time_from  and property.open_time_to %}
                         <p class="item-msg">预计开盘：{= property.open_time_from =} － {= property.open_time_to =}</p>
                     {% elif property.open_time_from %}
                         <p class="item-msg">预计开盘：{= property.open_time_from =}</p>
+                    {% elif isnew == 0 %}
+                        <p class="item-msg">预计开盘：项目已结束</p>
                     {% else %}
-                        <p class="item-msg">预计开盘：暂缺</p>
+                        <p class="item-msg">预计开盘：待定</p>
                     {% endif %}
                 </li>
                 <li class="item-info">
                     <p class="item-msg">产权年限：{= property.property_age =}</p>
                 </li>
+                {% if property.isnew==1 %}
                 <li class="item-info">
                     <p class="item-msg">周边配套：</p>
                     <ul class="surroundings-container">
                         {% for surrounding in property.surrounding %}
-                            <li class="surroundings" alt="{= surrounding =}">{= surrounding =}</li>
+                            <li class="surroundings" alt="{= surrounding =}"><a href="http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D{= property.location|exactAddress =}附近{= surrounding|exactAddress =}">{= surrounding =}</a></li>
                         {% endfor %}
                     </ul>
                 </li>
+                {% endif %}
+                {% if property.isnew==1 %}
                 <li class="item-info">
                     {% if page!='detail' %}
                         <div class="app-item-direction">
@@ -107,6 +110,7 @@
                         </div>
                     {% endif %}
                 </li>
+                {% endif %}
             </ul>
 
 

@@ -8,7 +8,7 @@
         thumbFit:true,
         thumbCrop:true,
         thumbMargin:1,
-        height: 0.9
+        height: 0.8
     })
     Galleria.run('.galleria');
     // $(".galleria-container").css("height","440px");

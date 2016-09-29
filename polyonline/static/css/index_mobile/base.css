@@ -16,13 +16,13 @@
 }
 
 .header-logo {
-    height: 50px;
+    height: 42px;
     width: 232px;
-    margin-top: 9.5px;
-    background-image: url(../../img/index/icons.png);
-    background-size: 789.2px 243.2px;
+    margin-top: 18px;
+    background-image: url(../../img/index/logo1.png);
+    /*background-size: 789.2px 243.2px;*/
     background-repeat: no-repeat;
-    background-position: -19px -5px;
+    /*background-position: -19px -5px;*/
     float: left;
     margin-left: 12px;
 }

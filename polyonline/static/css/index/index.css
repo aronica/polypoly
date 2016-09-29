@@ -186,3 +186,7 @@ body {
     width: 633px;
     height: 253px;
 }
+
+.banner-img{
+    border: 0 !important;
+}

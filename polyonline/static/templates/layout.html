@@ -45,12 +45,14 @@
                     <li class="header-navlist"><a href="projects.html">项目巡览</a></li>
                     <li class="header-navlist"><a href="houses.html">产品巡览</a></li>
                     {% if userInfo %}
+                        <li class="header-navlist"><a href="/index.html?quit=true">退出</a></li>
                     {% else %}
                     <li class="header-navlist"><a href="/personal.html">登录</a></li>
                     {% endif %}
+
                     <li class="header-navlist">
                         <a class="jiathis_button_weixin"><div class="header-loginlist" alt="微信"></div></a>
-{#                        <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>#}
+                        <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
                     </li>
                 </ul>
             </div>

@@ -6,26 +6,20 @@
 .subnav {
     width: 1090px;
     margin: 0 auto;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: flex;
+    overflow: hidden;
 }
 
 .search-container {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: flex;
-    -webkit-flex: 1;
-    -moz-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
     line-height: 75px;
+}
+
+.select-container{
+    float: left;
 }
 
 .search-text {
     width: 150px;
+    float: left;
 }
 
 .search-options {
@@ -42,6 +36,8 @@
     display: -ms-flex;
     display: flex;
     flex-direction: row-reverse;
+    float:right;
+    overflow: hidden;
 }
 
 .login-left {
@@ -95,13 +91,15 @@
     background-repeat: no-repeat;
     background-position: -702px -194px;
     cursor: pointer;
+    float: right;
 }
 
 .login-user{
-    height:64px;
-    width: 64px;
+    /*height:64px;*/
+    /*width: 64px;*/
     border-radius: 4px;
     cursor: pointer;
+    float: right;
 }
 
 .login-bottom {

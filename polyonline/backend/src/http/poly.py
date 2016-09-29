@@ -64,6 +64,7 @@ class PropertyListHandler(wrapper.BaseHandler):
             pd["image"] = _property.image
             pd["description"] = _property.description
             pd["location"] = _property.location
+            pd["isnew"] = _property.isnew;
             if _property.open_time_from:
                 open_time_from = datetime.strptime( _property.open_time_from, "%Y-%m-%d %H:%M:%S")
                 pd["open_time_from"] = "{0}年{1}月".format(open_time_from.year, open_time_from.month)

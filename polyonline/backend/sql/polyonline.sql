@@ -97,6 +97,7 @@ CREATE TABLE `property` (
   `property_age` int(11) DEFAULT NULL,
   `surrounding` json DEFAULT NULL,
   `shown` tinyint(1) DEFAULT '1',
+  `isnew` int(11) DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `ix_city` (`city`, `name`),
   KEY `ix_shown` (`shown`)

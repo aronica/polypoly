@@ -178,7 +178,7 @@ textarea {
 .personal-info {
     background-color: white;
     position: absolute;
-    top: 100px;
+    top: 50px;
     padding: 20px 80px;
     margin: 0 calc(50% - 250px);
     width: 520px;
@@ -201,15 +201,15 @@ textarea {
 
 .alert-title img {
     float: left;
-    width: 205px;
-    height: 185px;
+    width: 175px;
+    height: 155px;
     /*margin-left: 40px;*/
 }
 
 .alert-title div {
     float: left;
-    width: 205px;
-    height: 186px;
+    width: 175px;
+    height: 155px;
 }
 
 .alert-title > p {
@@ -226,7 +226,7 @@ textarea {
 
 .alert-info {
     margin: 20px 0;
-    line-height: 32px;
+    line-height: 26px;
     font-size: 16px;
 }
 
@@ -234,7 +234,7 @@ textarea {
 
 .personal-info li > input {
     width: 409px;
-    margin: 10px 0 10px 0px;
+    margin: 5px 0 5px 0px;
     line-height: 24px;
     /*-webkit-border-radius:2px;*/
     /*-moz-border-radius:2px;*/
@@ -307,5 +307,9 @@ textarea {
     margin: 60px 0 0 30px;
     line-height: 32px;
     font-size: 16px;
+}
+
+.sharebox{
+    cursor: pointer;
 }
 

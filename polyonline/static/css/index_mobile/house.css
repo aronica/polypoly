@@ -61,8 +61,8 @@ p.house-filter-lists {
     float: left;
     width: 100%;
     margin-bottom: 70px;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    /*border-top: 1px solid #eee;*/
+    /*border-bottom: 1px solid #eee;*/
 }
 
 .house-list > p:nth-of-type(1) {

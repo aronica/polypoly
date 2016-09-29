@@ -267,3 +267,25 @@ a[href^="project.html"] {
     -moz-border-radius:5px;
     border-radius:5px;
 }
+
+span.item-gis {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    background-image: url(../../img/util/b6.png);
+    background-size: initial;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.surroundings a{
+    text-decoration: none;
+    color: #666;
+}
+
+.surroundings a:visited{
+    color: #666;
+}

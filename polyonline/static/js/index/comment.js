@@ -43,7 +43,12 @@ function submitData() {
     dataType: 'json',
     success: function(res, xhr, e) {
       console.log(res, xhr, e)
-      SHARE.el.style.display = 'block';
+      debugger;
+      if(!isMobile){
+        SHARE.el.style.display = 'block';
+        return;
+      }
+      alert("嘿，感谢您支持保利线上产品！您可以将本调研分享给朋友，小P还会再赠送您 50 元/㎡ 的购房优惠!");
       // alert('您已成功提价评价，谢谢您的反馈！')
     },
     error: function(res, xhr, e) {
@@ -53,7 +58,7 @@ function submitData() {
 }
 
 if (isMobile) {
-    $('.sketchfab-embed-wrapper').html('<iframe width="100%" height="300px" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" name="sketchfabModel" src=https://sketchfab.com/models/' + MODELS + '/embed?autostart=1&preload=1&ui_controls=0&ui_infos=0">')
+   $('.sketchfab-embed-wrapper').html('<iframe width="100%" height="300px" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" name="sketchfabModel" src=https://sketchfab.com/models/' + MODELS + '/embed?autostart=1&preload=1&ui_controls=0&ui_infos=0">')
 } else {
     $('.sketchfab-embed-wrapper').html('<iframe width="100%" height="592px" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" name="sketchfabModel" src=https://sketchfab.com/models/' + MODELS + '/embed?autostart=1&preload=1&ui_controls=0&ui_infos=0">')
 }
@@ -76,6 +81,7 @@ var ALERT = new Vue({
       // submitData()
     },
     'confirm': function() {
+      // alert(11);
       this.el.style.display = 'none'
       submitData()
     }

@@ -8,7 +8,8 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["dhly_top.jpg", "dhly_bottom_1.jpg","dhly_bottom_2.jpg","dhly_bottom_3.jpg"]
+        "image":["dhly_top.jpg", "dhly_bottom_1.jpg","dhly_bottom_2.jpg","dhly_bottom_3.jpg"],
+        "isnew":0
     },
     {
         "city":"佛山",
@@ -19,7 +20,8 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["dongwan_top.jpg", "dongwan_bottom_1.jpg","dongwan_bottom_2.jpg","dongwan_bottom_3.jpg"]
+        "image":["dongwan_top.jpg", "dongwan_bottom_1.jpg","dongwan_bottom_2.jpg","dongwan_bottom_3.jpg"],
+        "isnew":0
     },
     {
         "city":"佛山",
@@ -30,18 +32,20 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["ssj_top.jpg", "ssj_bottom_1.jpg","ssj_bottom_2.jpg","ssj_bottom_3.jpg"]
+        "image":["ssj_top.jpg", "ssj_bottom_1.jpg","ssj_bottom_2.jpg","ssj_bottom_3.jpg"],
+        "isnew":0
     },
     {
         "city":"佛山",
         "name":"中央公馆",
         "description":"“沥桂一体、广佛金谷”， 南海东翼片区有着承载着引领佛山经济文化全方位腾飞的城市战略地位，而保利中央公馆正坐落于南海城市发展中轴线与广佛黄金走廊的交汇点上。深耕佛山8年，央企保利地产继续以城市运营商的高度将项目打造成沥桂新城核心区内唯一的超大规模上层人居标杆社区，成就保利继千灯湖生活圈后的又一升级力作。 保利中央公馆总占地面积约为17万平方米，项目总建筑面积约为83.4万平方米，地上总建筑面积约为61.4万平方米，项目自身拥有完善的社区商业配套、星级会所及国际连锁品牌幼儿园。\n交通便利，配套完善，环境优美： 保利中央公馆坐拥广佛国际商贸城中心区百亿商业配套，毗邻大沥新都会商圈、保利千灯湖生活圈，商业步行街、超市、电影城、教育、酒店、市民广场等配套应有尽有。 周边路网发达，交通便利，10分钟通达禅桂，半小时往来广州，而拟建的地铁五号线将会进一步缩短项目与禅桂、广州的距离，成就半小时广佛生活圈。 项目自然环境优越，西面有总投入超过6000多万打造的1.6公里长的九龙涌文化艺术长廊，北面有原生态香基河，尽享一线河岸资源。未来将有占地超过150亩的、作为中轴线核心生态景区的大沥市民广场投入使用，将进一步升级项目的生态环境。",
-        "location":"南海区大沥镇广佛国际商贸城中心区保利中央公馆（镇政府北侧）",
+        "location":"南海区大沥镇广佛国际商贸城中心区（镇政府北侧）",
         "open_time":"2014年9月25日",
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["zhongyanggongguan_top.jpg", "zhongyanggongguan_bottom_1.jpg","zhongyanggongguan_bottom_2.jpg","zhongyanggongguan_bottom_3.jpg"]
+        "image":["zhongyanggongguan_top.jpg", "zhongyanggongguan_bottom_1.jpg","zhongyanggongguan_bottom_2.jpg","zhongyanggongguan_bottom_3.jpg"],
+        "isnew":0
     },
     {
         "city":"佛山",
@@ -52,7 +56,8 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["zhgc_top.jpg", "zhgc_bottom_1.jpg","zhgc_bottom_2.jpg","zhgc_bottom_3.jpg"]
+        "image":["zhgc_top.jpg", "zhgc_bottom_1.jpg","zhgc_bottom_2.jpg","zhgc_bottom_3.jpg"],
+        "isnew":0
     },
     {
         "city":"佛山",
@@ -63,7 +68,8 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["ydh1201F", "ydh1202F", "ydh1801F", "ydh1802F", "ydh1803F", "ydh230-1F", "ydh2301F", "ydh2302F", "ydh2303F", "ydh350-1F", "ydh3501F", "ydh3502F", "ydh3503F"],
-        "image":["yun_top.jpg", "yun_bottom_1.jpg","yun_bottom_2.jpg","yun_bottom_3.jpg"]
+        "image":["yun_top.jpg", "yun_bottom_1.jpg","yun_bottom_2.jpg","yun_bottom_3.jpg"],
+        "isnew":1
     },
     {
         "city":"湛江",
@@ -74,7 +80,8 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["yuandian_top.jpg", "yuandian_bottom_1.jpg","yuandian_bottom_2.jpg","yuandian_bottom_3.jpg"]
+        "image":["yuandian_top.jpg", "yuandian_bottom_1.jpg","yuandian_bottom_2.jpg","yuandian_bottom_3.jpg"],
+        "isnew":0
     },
     {
         "city":"江门",
@@ -85,7 +92,8 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["daduhui_top.jpg", "daduhui_bottom_1.jpg","daduhui_bottom_2.jpg","daduhui_bottom_3.jpg"]
+        "image":["daduhui_top.jpg", "daduhui_bottom_1.jpg","daduhui_bottom_2.jpg","daduhui_bottom_3.jpg"],
+        "isnew":0
     },
     {
         "city":"湛江",
@@ -96,7 +104,8 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["tianyuewan_top.jpg", "tianyuewan_bottom_1.jpg","tianyuewan_bottom_2.jpg","tianyuewan_bottom_3.jpg"]
+        "image":["tianyuewan_top.jpg", "tianyuewan_bottom_1.jpg","tianyuewan_bottom_2.jpg","tianyuewan_bottom_3.jpg"],
+        "isnew":0
     },
     {
         "city":"清远",
@@ -107,7 +116,8 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["tianhui_top.jpg", "tianhui_bottom_1.jpg","tianhui_bottom_2.jpg","tianhui_bottom_3.jpg"]
+        "image":["tianhui_top.jpg", "tianhui_bottom_1.jpg","tianhui_bottom_2.jpg","tianhui_bottom_3.jpg"],
+        "isnew":0
     },
     {
         "city":"佛山",
@@ -118,7 +128,8 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["xingzuo_top.jpg", "xingzuo_bottom_1.jpg","xingzuo_bottom_2.jpg","xingzuo_bottom_3.jpg"]
+        "image":["xingzuo_top.jpg", "xingzuo_bottom_1.jpg","xingzuo_bottom_2.jpg","xingzuo_bottom_3.jpg"],
+        "isnew":0
     },
     {
         "city":"佛山",
@@ -129,7 +140,8 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["scgw_top.jpg", "scgw_bottom_1.jpg","scgw_bottom_2.jpg","scgw_bottom_3.jpg"]
+        "image":["scgw_top.jpg", "scgw_bottom_1.jpg","scgw_bottom_2.jpg","scgw_bottom_3.jpg"],
+        "isnew":0
     },
     {
         "city":"阳江",
@@ -140,7 +152,8 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["hailingdao_top.jpg", "hailingdao_bottom_1.jpg","hailingdao_bottom_2.jpg","hailingdao_bottom_3.jpg"]
+        "image":["hailingdao_top.jpg", "hailingdao_bottom_1.jpg","hailingdao_bottom_2.jpg","hailingdao_bottom_3.jpg"],
+        "isnew":0
     },
     {
         "city":"佛山",
@@ -151,7 +164,8 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["bhhy_top.jpg", "bhhy_bottom_1.jpg","bhhy_bottom_2.jpg","bhhy_bottom_3.jpg"]
+        "image":["bhhy_top.jpg", "bhhy_bottom_1.jpg","bhhy_bottom_2.jpg","bhhy_bottom_3.jpg"],
+        "isnew":0
     },
     {
         "city":"佛山",
@@ -162,7 +176,8 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["zishan_top.jpg", "zishan_bottom_1.jpg","zishan_bottom_2.jpg","zishan_bottom_3.jpg"]
+        "image":["zishan_top.jpg", "zishan_bottom_1.jpg","zishan_bottom_2.jpg","zishan_bottom_3.jpg"],
+        "isnew":0
     },
     {
         "city":"佛山",
@@ -173,7 +188,8 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["huayuan_top.jpg", "huayuan_bottom_1.jpg","huayuan_bottom_2.jpg","huayuan_bottom_3.jpg"]
+        "image":["huayuan_top.jpg", "huayuan_bottom_1.jpg","huayuan_bottom_2.jpg","huayuan_bottom_3.jpg"],
+        "isnew":0
     },
     {
         "city":"佛山",
@@ -184,6 +200,7 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["xyt_top.jpg", "xyt_bottom_1.jpg","xyt_bottom_2.jpg","xyt_bottom_3.jpg"]
+        "image":["xyt_top.jpg", "xyt_bottom_1.jpg","xyt_bottom_2.jpg","xyt_bottom_3.jpg"],
+        "isnew":0
     }
 ]

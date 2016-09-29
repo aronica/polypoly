@@ -6,6 +6,7 @@
 .subnav {
     width: 100%;
     padding: auto 10px;
+
 }
 
 .search-container {
@@ -34,7 +35,7 @@
     display: -ms-flex;
     display: flex;
     flex-direction: row-reverse;
-    margin-right: 2px;
+    margin-right: 10px;
 }
 
 .login-left {
@@ -82,8 +83,8 @@
 
 
 .login-user{
-    height:64px;
-    width: 64px;
+    /*height:64px;*/
+    /*width: 64px;*/
     border-radius: 4px;
     cursor: pointer;
 }
