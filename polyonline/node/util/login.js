@@ -22,6 +22,36 @@ const checkLogin = co.wrap(function *(openid) {
     return request(data)
 })
 
+const getAccessToken = co.wrap(function *(){
+    let data = {
+        url: "https://api.weixin.qq.com/cgi-bin/token",
+        method: "get",
+        json: true,
+        qs: {
+            grant_type: "client_credential",
+            appid: config.weixinAppidMobile,
+            secret: config.weixinSecretMobile
+        }
+    }
+    return request(data);
+})
+const getTicket = co.wrap(function *(accessToken){
+    let data = {
+        url: "https://api.weixin.qq.com/cgi-bin/ticket/getticket",
+        method: "get",
+        json: true,
+        qs: {
+            type: "jsapi",
+            access_token: accessToken
+        }
+    }
+    return request(data);
+})
+
+
+
 module.exports = {
-  checkLogin: checkLogin
+    checkLogin: checkLogin,
+    getAccessToken:getAccessToken,
+    getTicket:getTicket
 }

@@ -187,9 +187,11 @@ textarea {
     overflow: hidden;
 }
 
+
 .alert-title img {
     width: 100px;
     height: 100px;
+    float: left;
 }
 
 .alert-title div {
@@ -205,10 +207,18 @@ textarea {
     line-height: 24px;
 }
 
+.alert-title > p {
+    /*width: 350px;*/
+    /*margin-left: 220px;*/
+    /*font-size: 30px;*/
+    /*line-height: 28px;*/
+    /*line-height: 48px;*/
+    margin-top: 10px;
+}
 
 .personal-info li > input {
     /*width: 409px;*/
-    margin: 10px 0 10px 0px;
+    margin: 0 0 0 0;
     line-height: 24px;
     /*-webkit-border-radius:2px;*/
     /*-moz-border-radius:2px;*/
@@ -306,7 +316,7 @@ textarea {
 
 
 .alert-title > p:nth-of-type(1) {
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
 
 .alert-button {

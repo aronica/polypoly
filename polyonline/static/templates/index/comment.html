@@ -155,13 +155,14 @@
 
 {% endblock %}
 {% block script %}
-<script>
-var MODELS = '{= structureDetail.sketchfab_id =}';
-var isMobile = {= isMobile =};
-</script>
-<script src='js/lib/jquery.min.js'></script>
-<script src='js/lib/ajax.js'></script>
-<script src='js/lib/utils.js'></script>
-<script src="js/index/comment.js"></script>
-<script src='js/index/subnav.js'></script>
+    <script>
+    var MODELS = '{= structureDetail.sketchfab_id =}';
+    var isMobile = {= isMobile =};
+    </script>
+    <script src='js/lib/jquery.min.js'></script>
+    <script src='js/lib/ajax.js'></script>
+    <script src='js/lib/utils.js'></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="js/index/comment.js"></script>
+    <script src='js/index/subnav.js'></script>
 {% endblock script %}

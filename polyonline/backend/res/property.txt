@@ -6,7 +6,7 @@ property_age:70
 surrounding:医院 购物中心 学校
 structure:90W-a(N) 90W-b(N) 125Y-a(B) 125Y-b(N) 140Y-a(N) 140Y-b(B) 140Y-c(N) 140Y-d(N) 140Y-e(N)
 image:yunshang_top.jpg yunshang_bottom_1.jpg yunshang_bottom_2.jpg yunshang_bottom_3.jpg
-end 
+end
 
 city:佛山
 name:山水保利中央公园

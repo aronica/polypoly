@@ -192,3 +192,27 @@ body {
 .layout-title-right .project-address{
     color: #d2d2b4;
 }
+
+.layout-info-item{
+    float:right;
+    font-size: 12px;
+}
+
+.layout-name{
+    margin-top: 20px;
+}
+
+.layout-info{
+    margin-top: 20px;
+}
+.layout-info span{
+    font-size: 12px;
+}
+
+.layout-info span.layout-name{
+    color: #1e46a1;
+}
+
+.layout-info span.layout-address{
+    color: #AAAA55;
+}

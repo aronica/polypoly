@@ -144,5 +144,22 @@ var COMMENTS = new Vue({
       ALERT.el.style.display = 'block'
     }
   }
-})
+});
+
+
+function signagure(appid,timestamp,nonceStr,url){
+
+}
+
+var timestamp = new Date().getTime();
+wx.config({
+  debug: true,
+  appId: 'wx6528c82cfdb6e6ae', // 必填，公众号的唯一标识
+  timestamp:new Date().getTime()+"" , // 必填，生成签名的时间戳
+  nonceStr: 'poly', // 必填，生成签名的随机串
+  signature: '',// 必填，签名，见附录1
+  jsApiList: ["onMenuShareTimeline","onMenuShareAppMessage"] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+});
+
+
 

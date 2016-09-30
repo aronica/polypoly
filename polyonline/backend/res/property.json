@@ -67,8 +67,8 @@
         "open_time":"待定",
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
-        "structure":["ydh1201F", "ydh1202F", "ydh1801F", "ydh1802F", "ydh1803F", "ydh230-1F", "ydh2301F", "ydh2302F", "ydh2303F", "ydh350-1F", "ydh3501F", "ydh3502F", "ydh3503F"],
-        "image":["yun_top.jpg", "yun_bottom_1.jpg","yun_bottom_2.jpg","yun_bottom_3.jpg"],
+        "structure":["1201F", "1202F", "1801F", "1802F", "1803F", "230-1F", "2301F", "2302F", "2303F", "350-1F", "3501F", "3502F", "3503F"],
+        "image":["yunshang01.jpg","yunshang02.jpg","yunshang03.jpg","yunshang04.jpg","yunshang05.jpg"],
         "isnew":1
     },
     {

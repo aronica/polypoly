@@ -13,6 +13,8 @@ const renderer = require('./renderer')
 const co = require('co')
 const login = require('../util/login')
 const dt = require('../util/datetime')
+const sign = require('../util/sign');
+
 
 
 
@@ -37,6 +39,8 @@ nj.addFilter('exactAddress', function(str, count) {
   return str
 });
 
+
+
 // handlers
 module.exports = {
   index: function *(next) {
@@ -46,7 +50,6 @@ module.exports = {
       this.cookies.set('openid','')
     }
     let banner = yield renderer.getBanner
-
     this.body = nj.render('index/index.html', {
       isMobile: this.isMobile,
       data: banner.result
@@ -178,13 +181,27 @@ module.exports = {
     let propertyId = qs.property_id || ''
 
     let structureDetail = yield renderer['getStructureDetail'](structureId, this.openid, propertyId)
-
+    // let accessToken = module.accessToken;
+    // let ticket = module.ticket;
+    //
+    // if(!accessToken||!module.accessTokenTime ||(new Date().getTime() - module.accessTokenTime)>7000000){
+    //   accessToken = yield login.getAccessToken()
+    //   ticket = yield login.getTicket(accessToken)
+    // }
+    //
+    // let ret = sign(ticket,"http://online.polycn.com/comment.html?&structure_id=1&property_id=")
+    // let params=[]
+    // for(let i in ret){
+    //
+    // }
     this.body = nj.render('index/comment.html', {
       isMobile: this.isMobile,
       structureDetail: structureDetail.result,
       fromHouse: fromHouse,
       userInfo: this.userInfo,
-      datetime: dt()
+      datetime: dt(),
+      accessToken:'',
+      weixindata:''
     })
   },
   about: function* (next) {
