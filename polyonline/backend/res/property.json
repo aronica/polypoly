@@ -8,7 +8,7 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["dhly_top.jpg", "dhly_bottom_1.jpg","dhly_bottom_2.jpg","dhly_bottom_3.jpg"],
+        "image":["donghulinyu1.jpg", "donghulinyu2.jpg","donghulingyu3.jpg","donghulingyu4.jpg"],
         "isnew":0
     },
     {
@@ -20,7 +20,7 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["dongwan_top.jpg", "dongwan_bottom_1.jpg","dongwan_bottom_2.jpg","dongwan_bottom_3.jpg"],
+        "image":["dongwan1.jpg", "dongwan2.jpg","dongwan3.jpg","dongwan4.jpg","dongwan5.jpg"],
         "isnew":0
     },
     {
@@ -32,7 +32,7 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["ssj_top.jpg", "ssj_bottom_1.jpg","ssj_bottom_2.jpg","ssj_bottom_3.jpg"],
+        "image":["ssj1.jpg", "ssj2.jpg","ssj3.jpg","ssj4.jpg","ssj5.jpg"],
         "isnew":0
     },
     {
@@ -44,7 +44,7 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["zhongyanggongguan_top.jpg", "zhongyanggongguan_bottom_1.jpg","zhongyanggongguan_bottom_2.jpg","zhongyanggongguan_bottom_3.jpg"],
+        "image":["zhongyanggongguan1.jpg", "zhongyanggongguan2.jpg","zhongyanggongguan3.jpg","zhongyanggongguan4.jpg","zhongyanggongguan5.jpg"],
         "isnew":0
     },
     {
@@ -56,7 +56,7 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["zhgc_top.jpg", "zhgc_bottom_1.jpg","zhgc_bottom_2.jpg","zhgc_bottom_3.jpg"],
+        "image":["zhgc1.jpg", "zhgc2.jpg","zhgc3.jpg","zhgc4.jpg","zhgc5.jpg"],
         "isnew":0
     },
     {
@@ -80,7 +80,7 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["yuandian_top.jpg", "yuandian_bottom_1.jpg","yuandian_bottom_2.jpg","yuandian_bottom_3.jpg"],
+        "image":["yuandian1.jpg", "yuandian2.jpg","yuandian3.jpg","yuandian4.jpg","yuandian5.jpg"],
         "isnew":0
     },
     {
@@ -92,7 +92,7 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["daduhui_top.jpg", "daduhui_bottom_1.jpg","daduhui_bottom_2.jpg","daduhui_bottom_3.jpg"],
+        "image":["daduhui1.jpg", "daduhui2.jpg","daduhui3.jpg","daduhui4.jpg","daduhui5.jpg"],
         "isnew":0
     },
     {
@@ -104,7 +104,7 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["tianyuewan_top.jpg", "tianyuewan_bottom_1.jpg","tianyuewan_bottom_2.jpg","tianyuewan_bottom_3.jpg"],
+        "image":["tianyuewan1.jpg", "tianyuewan2.jpg","tianyuewan3.jpg","tianyuewan4.jpg","tianyuewan5.jpg"],
         "isnew":0
     },
     {
@@ -116,7 +116,7 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["tianhui_top.jpg", "tianhui_bottom_1.jpg","tianhui_bottom_2.jpg","tianhui_bottom_3.jpg"],
+        "image":["tianhui1.jpg", "tianhui2.jpg","tianhui3.jpg","tianhui4.jpg","tianhui5.jpg"],
         "isnew":0
     },
     {
@@ -152,7 +152,7 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["hailingdao_top.jpg", "hailingdao_bottom_1.jpg","hailingdao_bottom_2.jpg","hailingdao_bottom_3.jpg"],
+        "image":["hailingdao1.jpg", "hailingdao2.jpg","hailingdao3.jpg","hailingdao4.jpg","hailingdao5.jpg"],
         "isnew":0
     },
     {
@@ -176,7 +176,7 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["zishan_top.jpg", "zishan_bottom_1.jpg","zishan_bottom_2.jpg","zishan_bottom_3.jpg"],
+        "image":["zishan1.jpg", "zishan2.jpg","zishan3.jpg","zishan4.jpg","zishan5.jpg"],
         "isnew":0
     },
     {
@@ -200,7 +200,7 @@
         "property_age":70,
         "surrouding":{"医院":[], "购物中心":[], "学校":[]},
         "structure":["90W-a(N)","90W-b(N)","125Y-a(B)","125Y-b(N)","140Y-a(N)","140Y-b(B)","140Y-c(N)","140Y-d(N)","140Y-e(N)"],
-        "image":["xyt_top.jpg", "xyt_bottom_1.jpg","xyt_bottom_2.jpg","xyt_bottom_3.jpg"],
+        "image":["xiyatu1.jpg", "xiyatu2.jpg", "xiyatu3.jpg","xiyatu4.jpg","xiyatu5.jpg"],
         "isnew":0
     }
 ]
